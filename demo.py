@@ -64,14 +64,25 @@ if idx < len(qa_list):
                 """
 
                 try:
-                    response = client.chat.completions.create(
-                        model="gpt-3.5-turbo",
-                        messages=[
-                            # {"role": "system", "content": "You are an expert investment banking interviewer. Grade answers strictly based on accuracy and completeness."},
-                            {"role": "user", "content": grading_prompt}
-                        ]
-                    )
-                    feedback = response.choices[0].message.content.strip()
+                    if len(answer.strip().split()) < 5:
+                        feedback = "Score: 0/10\nJustification: The answer was too short (fewer than 5 words) to be evaluated meaningfully."
+                    else:
+                        response = client.chat.completions.create(
+                            model="gpt-3.5-turbo",
+                            messages=[
+                                {"role": "system", "content": "You are a strict finance interviewer."},
+                                {"role": "user", "content": grading_prompt}
+                            ]
+                        )
+                        feedback = response.choices[0].message.content.strip()
+                    # response = client.chat.completions.create(
+                    #     model="gpt-3.5-turbo",
+                    #     messages=[
+                    #         # {"role": "system", "content": "You are an expert investment banking interviewer. Grade answers strictly based on accuracy and completeness."},
+                    #         {"role": "user", "content": grading_prompt}
+                    #     ]
+                    # )
+                    # feedback = response.choices[0].message.content.strip()
                     st.session_state.answers.append(answer)
                     st.session_state.feedback.append(feedback)
                     st.session_state.index += 1
