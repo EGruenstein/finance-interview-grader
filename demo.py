@@ -3,6 +3,8 @@ from openai import OpenAI
 import os
 import json
 
+
+
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 with open("examples.json") as f:
     examples = json.load(f)
@@ -52,14 +54,14 @@ if idx < len(qa_list):
                 Score: X/10  
                 Justification: <your explanation here>
 
-                If the answer is under five words, assign a score of 0.
+                If the answer is vague, incorrect, or incomplete (e.g., "I don't know"), explain what is missing and assign a score of 0. If the answer is under five words, assign a score of 0.
                                 """
 
                 try:
                     response = client.chat.completions.create(
                         model="gpt-3.5-turbo",
                         messages=[
-                            {"role": "system", "content": "You are an expert investment banking interviewer. Grade answers strictly based on accuracy and completeness."},
+                            # {"role": "system", "content": "You are an expert investment banking interviewer. Grade answers strictly based on accuracy and completeness."},
                             {"role": "user", "content": grading_prompt}
                         ]
                     )
@@ -67,7 +69,7 @@ if idx < len(qa_list):
                     st.session_state.answers.append(answer)
                     st.session_state.feedback.append(feedback)
                     st.session_state.index += 1
-                    st.rerun()
+                    st.experimental_rerun()
                 except Exception as e:
                     st.error("Failed to get feedback from OpenAI.")
                     st.text(str(e))
