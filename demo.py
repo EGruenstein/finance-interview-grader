@@ -44,18 +44,24 @@ if idx < len(qa_list):
 
                 # Generate grading prompt
                 grading_prompt = f"""
-                Question: {question}
-                Example Answer: {example}
-                Candidate Answer: {answer}
+                You are a senior finance interviewer evaluating a candidate's answer.
 
-                You are a senior finance interviewer. Compare the candidate’s answer to the example and assign a score from 1 to 10 based on accuracy, clarity, and completeness.
+                **Rules**:
+                - If the candidate's answer is under **5 words**, assign a score of **0/10** automatically.
+                - Otherwise, compare it to the example and score from 1 to 10 based on accuracy, clarity, and completeness.
 
-                Respond using the following format:
+                **Respond in this format exactly**:
                 Score: X/10  
-                Justification: <your explanation here>
+                Justification: <your explanation>
 
-                If the answer is under five words, assign a score of 0.
-                                """
+                ---
+
+                Question: {question}
+
+                Example Answer: {example}
+
+                Candidate Answer: {answer}
+                """
 
                 try:
                     response = client.chat.completions.create(
