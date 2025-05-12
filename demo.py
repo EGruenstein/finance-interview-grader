@@ -20,7 +20,7 @@ if "index" not in st.session_state:
     st.session_state.feedback = []
     st.session_state.completed = False
 
-st.title("💼 Finance Interview Grader")
+st.title("Finance Interview Grader")
 st.write("Answer 3 finance interview questions and receive feedback and an overall evaluation.")
 
 # Current question
