@@ -1,95 +1,112 @@
 import streamlit as st
-import requests
+from openai import OpenAI
+import os
 import json
 
-# Load example Q&A pairs
+# Load OpenAI key from Streamlit Secrets (set on Streamlit Cloud)
+# openai.api_key = os.getenv("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")
+client = OpenAI(api_key="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") 
+
+# Load questions and examples
 with open("examples.json") as f:
     examples = json.load(f)
 
-qa_list = examples[:3]  # Pick any 3 questions for demo
+qa_list = examples[:3]  # Use the first 3 questions
 
-# Session state to store progress
+# Session state
 if "index" not in st.session_state:
     st.session_state.index = 0
     st.session_state.answers = []
     st.session_state.feedback = []
+    st.session_state.completed = False
 
-st.title("Finance Interview Grader Demo")
-st.write("Answer the following 3 interview questions. You'll receive feedback after each, and a summary at the end.")
+st.title("💼 Finance Interview Grader")
+st.write("Answer 3 finance interview questions and receive feedback and an overall evaluation.")
 
 # Current question
 idx = st.session_state.index
 
 if idx < len(qa_list):
-    question = qa_list[idx]["question"]
-    example = qa_list[idx]["example"]
+    q = qa_list[idx]
+    question = q["question"]
+    example = q["example"]
 
-    st.subheader(f"Question {idx+1}")
+    st.subheader(f"Question {idx + 1}")
     st.write(question)
 
-    with st.expander("See an example answer"):
+    with st.expander("Example Answer"):
         st.write(example)
 
-    user_answer = st.text_area("Your Answer:", key=f"answer_{idx}", height=150)
+    answer = st.text_area("Your Answer", key=f"answer_{idx}", height=150)
 
     if st.button("Submit Answer"):
-        if user_answer.strip() == "":
+        if not answer.strip():
             st.warning("Please enter an answer before submitting.")
         else:
-            with st.spinner("Grading..."):
-                res = requests.post("http://127.0.0.1:5000/grade_answer", json={
-                    "question": question,
-                    "answer": user_answer,
-                    "example": example
-                })
+            with st.spinner("Grading your answer..."):
 
-                if res.status_code == 200:
-                    feedback = res.json().get("feedback", "")
-                    st.success("Feedback:")
-                    st.markdown(feedback)
+                # Generate grading prompt
+                grading_prompt = f"""
+                Question: {question}
+                Example Answer: {example}
+                Candidate Answer: {answer}
 
-                    # Save progress
-                    st.session_state.answers.append(user_answer)
+                You are a senior finance interviewer. Compare the candidate’s answer to the example and assign a score from 1 to 10 based on accuracy, clarity, and completeness.
+
+                Respond using the following format:
+                Score: X/10  
+                Justification: <your explanation here>
+
+                If the answer is vague, incorrect, or incomplete (e.g., "I don't know"), explain what is missing and assign a low score.
+                                """
+
+                try:
+                    response = client.chat.completions.create(
+                        model="gpt-3.5-turbo",
+                        messages=[
+                            {"role": "system", "content": "You are an expert investment banking interviewer. Grade answers strictly based on accuracy and completeness."},
+                            {"role": "user", "content": grading_prompt}
+                        ]
+                    )
+                    feedback = response.choices[0].message.content.strip()
+                    st.session_state.answers.append(answer)
                     st.session_state.feedback.append(feedback)
-                    # st.session_state.answers.append(user_answer)
-                    # st.session_state.feedback.append(feedback)
-
-                    # Advance to next question before rerunning
                     st.session_state.index += 1
+                    st.experimental_rerun()
+                except Exception as e:
+                    st.error("Failed to get feedback from OpenAI.")
+                    st.text(str(e))
 
-                    # Avoid rerunning immediately; just let Streamlit naturally refresh
-                    st.success("Answer submitted. Scroll down or click 'Submit Answer' again to continue.")
-                else:
-                    st.error("Error from backend")
-                    st.text(res.text)
 else:
-    # Interview complete — show summary
+    st.session_state.completed = True
     st.header("Interview Summary")
 
-    for i in range(len(qa_list)):
+    for i in range(3):
         st.subheader(f"Q{i+1}: {qa_list[i]['question']}")
-        st.write(f"**Your answer:** {st.session_state.answers[i]}")
-        st.write(f"**Feedback:** {st.session_state.feedback[i]}")
+        st.markdown(f"**Your answer:** {st.session_state.answers[i]}")
+        st.markdown(f"**Feedback:** {st.session_state.feedback[i]}")
 
-    # Call overall grader
-    if st.button("Get Overall Evaluation"):
-        with st.spinner("Generating overall feedback..."):
-            qa_feedback = [
-                    {
-                        "question": qa_list[i]["question"],
-                        "answer": st.session_state.answers[i],
-                        "feedback": st.session_state.feedback[i]
-                    }
-                    for i in range(3)
-            ]
+    if st.button("Get Overall Evaluation", key="overall_button"):
+        with st.spinner("Generating overall evaluation..."):
 
-        res = requests.post("http://127.0.0.1:5000/grade_overall", json={"qa_feedback": qa_feedback})
+            summary_prompt = "You are a senior finance interviewer. Below is a summary of the candidate’s responses and the feedback they received:\n\n"
+            for i in range(3):
+                summary_prompt += f"Q{i+1}: {qa_list[i]['question']}\n"
+                summary_prompt += f"A: {st.session_state.answers[i]}\n"
+                summary_prompt += f"Feedback: {st.session_state.feedback[i]}\n\n"
+            summary_prompt += "Provide an overall score (out of 10) and a short summary. Start with 'Overall Score: X/10'."
 
-        if res.status_code == 200:
-                overall = res.json().get("overall_feedback", "")
+            try:
+                overall_res = client.chat.completions.create(
+                    model="gpt-3.5-turbo",
+                    messages=[
+                        {"role": "system", "content": "You are a senior finance interviewer. Evaluate candidate performance holistically."},
+                        {"role": "user", "content": summary_prompt}
+                    ]
+                )
+                overall_feedback = overall_res.choices[0].message.content.strip()
                 st.success("Overall Evaluation")
-                st.markdown(overall)
-        else:
-                st.error("❌ Failed to generate overall evaluation.")
-                st.text(f"Status: {res.status_code}")
-                st.text(res.text)
+                st.markdown(overall_feedback)
+            except Exception as e:
+                st.error("Failed to generate overall evaluation.")
+                st.text(str(e))
