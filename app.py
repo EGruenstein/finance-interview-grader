@@ -4,8 +4,7 @@ import json
 import pprint
 
 app = Flask(__name__)
-client = OpenAI(api_key="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") 
-
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 with open("examples.json", "r") as f:
     qa_data = json.load(f)
 
