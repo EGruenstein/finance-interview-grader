@@ -67,7 +67,7 @@ if idx < len(qa_list):
                     st.session_state.answers.append(answer)
                     st.session_state.feedback.append(feedback)
                     st.session_state.index += 1
-                    st.experimental_rerun()
+                    st.rerun()
                 except Exception as e:
                     st.error("Failed to get feedback from OpenAI.")
                     st.text(str(e))
