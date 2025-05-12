@@ -29,8 +29,8 @@ if idx < len(qa_list):
     st.subheader(f"Question {idx + 1}")
     st.write(question)
 
-    with st.expander("Example Answer"):
-        st.write(example)
+    # with st.expander("Example Answer"):
+    #     st.write(example)
 
     answer = st.text_area("Your Answer", key=f"answer_{idx}", height=150)
 
