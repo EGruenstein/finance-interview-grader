@@ -3,7 +3,7 @@ from openai import OpenAI
 import os
 import json
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key=("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"))
 
 with open("examples.json") as f:
     examples = json.load(f)
@@ -53,7 +53,7 @@ if idx < len(qa_list):
                 Score: X/10  
                 Justification: <your explanation here>
 
-                If the answer is vague, incorrect, or incomplete (e.g., "I don't know"), explain what is missing and assign a low score.
+                If the answer is vague, incorrect, or incomplete (e.g., "I don't know"), explain what is missing and assign a score of 0. If the answer is under five words, assign a score of 0.
                                 """
 
                 try:
