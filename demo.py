@@ -3,7 +3,7 @@ from openai import OpenAI
 import os
 import json
 
-client = OpenAI(api_key="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") 
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 with open("examples.json") as f:
     examples = json.load(f)
