@@ -1,0 +1,18 @@
+[
+    {
+      "question": "Why do companies exist?",
+      "example": "Companies report their performance through financial statements and other performance measurement tools. Financial statements include the balance sheet (assets, liabilities, and equity), income statement (revenues and expenses), cash flow statement (cash inflows and outflows), and sometimes a statement of changes in equity. These documents provide insights into the company's financial health and operational results. Additionally, organizations use dashboards, scorecards, and performance reports to track metrics like key performance indicators (KPIs), enabling data-driven decision-making."
+    },
+    {
+      "question": "What does the income statement represent?",
+      "example": "The Income Statement represents a company's financial performance over a specific period, detailing revenues, expenses, and profits or losses."
+    },
+    {
+      "question": "What is GAAP accounting and why is it used?",
+      "example": "GAAP (Generally Accepted Accounting Principles) is a framework of accounting standards, principles, and procedures used in the United States. It is used to ensure consistency and transparency in financial reporting, allowing investors and stakeholders to make informed decisions."
+    },
+    {
+      "question": "What is D&A?",
+      "example": "D&A stands for Depreciation and Amortization. Depreciation refers to the allocation of the cost of tangible assets over their useful lives, while amortization relates to the gradual write-off of intangible assets."
+    }
+  ]
