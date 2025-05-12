@@ -54,7 +54,7 @@ if idx < len(qa_list):
                 Score: X/10  
                 Justification: <your explanation here>
 
-                If the answer is vague, incorrect, or incomplete (e.g., "I don't know"), explain what is missing and assign a score of 0. If the answer is under five words, assign a score of 0.
+                If the answer is under five words, assign a score of 0.
                                 """
 
                 try:
