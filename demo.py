@@ -64,8 +64,8 @@ if idx < len(qa_list):
                 """
 
                 try:
-                    if len(answer.strip().split()) < 5:
-                        feedback = "Score: 0/10\nJustification: The answer was too short (fewer than 5 words) to be evaluated meaningfully."
+                    if len(answer.strip().split()) < 3:
+                        feedback = "Score: 0/10\nJustification: The answer was too short (fewer than 3 words) to be evaluated meaningfully."
                     else:
                         response = client.chat.completions.create(
                             model="gpt-3.5-turbo",
