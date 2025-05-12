@@ -3,17 +3,13 @@ from openai import OpenAI
 import os
 import json
 
-# Load OpenAI key from Streamlit Secrets (set on Streamlit Cloud)
-# openai.api_key = os.getenv("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")
-client = OpenAI(api_key="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") 
+client = OpenAI(api_key="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") 
 
-# Load questions and examples
 with open("examples.json") as f:
     examples = json.load(f)
 
-qa_list = examples[:3]  # Use the first 3 questions
+qa_list = examples[:3]
 
-# Session state
 if "index" not in st.session_state:
     st.session_state.index = 0
     st.session_state.answers = []
@@ -23,7 +19,7 @@ if "index" not in st.session_state:
 st.title("Finance Interview Grader")
 st.write("Answer 3 finance interview questions and receive feedback and an overall evaluation.")
 
-# Current question
+# current question
 idx = st.session_state.index
 
 if idx < len(qa_list):
