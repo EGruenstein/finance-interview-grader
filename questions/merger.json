@@ -1,0 +1,160 @@
+[{
+    "question":  "How are mergers and acquisitions different?",
+    "example": "Mergers and acquisitions are both forms of corporate combination, but they differ in structure and market perception. A merger typically refers to two companies of similar size and stature joining together to form a new entity — often presented as a “merger of equals.” In contrast, an acquisition involves one company purchasing and taking control of another. The acquirer remains in control, and the target is absorbed into the buyer’s operations. While both involve integration of businesses, mergers imply balanced collaboration, whereas acquisitions signal control and dominance by the buyer. In practice, most transactions that are labeled as mergers are functionally acquisitions."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What are some reasons a company might acquire another  company?",
+    "example": "Companies pursue acquisitions to achieve strategic, financial, or  operational benefits. Common motivations include expanding into new markets or  geographies, acquiring valuable intellectual property or technology, and realizing  cost or revenue synergies through integration. Acquisitions may also eliminate  competition, diversify product offerings or revenue streams, or accelerate growth  by buying instead of building internally. Additionally, firms may pursue acquisitions  to improve their supply chains, achieve vertical integration, or deploy excess cash  in a value-accretive way. Ultimately, the goal is to enhance shareholder value  through strategic alignment and increased earnings power."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What does it mean for an acquisition to be dilutive?",
+    "example": "An acquisition is considered dilutive when the buyer's earnings per  share (EPS) decreases following the transaction. This typically happens when the  earnings contribution from the acquired company is not sufficient to offset the  cost of financing the deal \u2014 especially when paid for using high-cost equity or  expensive debt. In an all-stock deal, dilution can occur if the acquirer issues  shares that are valued more highly than the earnings being acquired. In simple  terms, if you're paying more for each dollar of earnings than your own stock is  worth, the deal will lower your EPS \ue08b which is why it's referred to as being  dilutive."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What are the key causes of dilution, and what are the causes of  accretion?",
+    "example": "Dilution occurs when the cost of acquisition outweighs the earnings  contribution of the target. Common causes include paying a high purchase  premium, acquiring a company with a higher P/E ratio than your own in an all- stock deal, or using equity or expensive capital to finance the transaction. On the  other hand, accretion occurs when the deal results in higher EPS for the acquirer.  This typically happens when the target has a lower P/E ratio, the deal is funded  with low-cost capital, or the acquirer can realize meaningful cost synergies or  revenue growth. The key test is whether the return on the acquisition exceeds the  cost of financing."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "If a company is purchased entirely in stock, what is the general rule  for accretion / dilution?",
+    "example": "In an all-stock deal, the general rule is simple: if the acquirer's P/E  ratio is higher than the target's, the deal will be accretive to EPS, and if the  acquirer's P/E ratio is lower than the target's, the deal will be dilutive. This happens  because the acquirer is issuing shares \u2014 essentially 'paying' with its own stock \u2014  and if it issues stock that is valued more highly than the earnings it receives in  return, each share gains value. Conversely, issuing low-P/E stock to buy high-P/E  earnings reduces the value per share and results in dilution. This is known as the  P/E rule of thumb for all-stock deals."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Walk me through a Merger Model.",
+    "example": "A merger model is used to assess the financial impact of a proposed  acquisition on the acquirer's earnings per share and overall financial profile. To  build one, you project the income statements of both companies, determine the  deal structure (cash, debt, stock, or a mix), and calculate the purchase price,  including any premium. Then, you estimate cost and revenue synergies, account  for deal-related adjustments such as new interest expense, lost interest income,  and amortization of intangibles, and combine the financials to produce a pro forma  income statement. Finally, you compare the acquirer's standalone EPS to the pro  forma EPS to determine if the deal is accretive or dilutive. The model helps  Finance Prep Training Material 51 analyze trade-offs around valuation, financing, and synergies."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Company A has a P/E of 12, and acquires Company B in an all-stock  deal for a P/E of 20. Is this deal accretive or dilutive?",
+    "example": "This deal is dilutive, because Company A is trading at a lower P/E  multiple than Company B. In an all-stock deal, the acquiring company is effectively  using its equity as currency. Since Company A has a P/E of 12, it is issuing stock  that reflects $1 of earnings for every $12 of price \u2014 but it's acquiring earnings  valued at $1 for every $20. This means it is paying more for each dollar of  earnings than its own stock is worth. As a result, the earnings received from  Company B do not fully offset the dilution from issuing new stock, and EPS  decreases post-transaction unless material synergies are realized."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Company X can pay for company Y in all-cash. Why might it decide  not to?",
+    "example": "Company X might avoid an all-cash deal because it could strain the  company's liquidity or limit flexibility for future investments. Using cash can  deplete reserves needed for operations, increase financial risk, or lead to a lower  credit rating. The company might also want to retain cash for more strategic uses  or avoid opportunity cost if the cash could earn a higher return elsewhere."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Company X can pay for company Y in all debt. Why might it decide  against doing so?",
+    "example": "Company X may hesitate to fund a deal entirely with debt due to  concerns over leverage and interest burden. Excessive debt can raise bankruptcy  risk, restrict operational flexibility through covenants, and hurt credit ratings.  Market perception may also turn negative if investors believe the company is  overextending financially, leading to a decline in stock price."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Company X can pay for company Y in equity. Why might it decide not  to?",
+    "example": "Paying with equity can be dilutive to existing shareholders, especially  if the acquirer's stock is undervalued. Issuing new shares lowers ownership  percentages and earnings per share. It may also signal to the market that  management believes the stock is overvalued, potentially hurting investor  confidence and stock price."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What is a strategic acquirer and what is a financial sponsor? Who will  pay more typically in a deal?",
+    "example": "A strategic acquirer is a company operating in the same or a related  industry that acquires another firm to gain synergies, expand capabilities, or  increase market share. A financial sponsor, like a private equity firm, focuses on  generating returns through operational improvements and eventual resale.  Strategic buyers typically pay more because they expect to realize synergies that  increase the combined value beyond standalone operations."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Why does Goodwill and other intangibles get created in an  acquisition?",
+    "example": "Goodwill and other intangibles are created when the purchase price  of an acquisition exceeds the fair value of the identifiable net assets. This excess  reflects intangible benefits such as brand value, customer relationships, or future  earning potential. These assets are recorded on the balance sheet and  periodically tested for impairment if the expected benefits do not materialize."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What are synergies?",
+    "example": "Synergies are the cost savings, revenue enhancements, or other  financial benefits that result from combining two companies. They can arise from  streamlining operations, consolidating resources, expanding customer bases, or  enhancing product offerings. The realization of synergies is a key justification for  mergers and acquisitions."
+  ,"difficulty": "easy"
+  },
+  {
+    "question": "What are the two types of synergies and which is typically taken  more seriously / considered more valuable?",
+    "example": "The two types of synergies are cost synergies and revenue synergies. Cost synergies \u2014 like eliminating redundancies or reducing procurement costs \u2014  are typically taken more seriously because they are easier to quantify and  implement. Revenue synergies involve cross-selling or entering new markets but  are harder to project and execute reliably."
+  ,"difficulty": "easy"
+  },
+  {
+    "question": "How are synergies used in M&A?",
+    "example": "Synergies are used to justify acquisition premiums and support the  financial rationale for a deal. They are factored into merger models to assess  whether the transaction will be accretive to earnings. Buyers use synergies to  increase deal value and returns, while sellers may use them to negotiate higher  prices."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Give me some examples of revenue synergies in a hypothetical deal  between Tesla and X?",
+    "example": "In a hypothetical deal between Tesla and another company (X),  revenue synergies might include Tesla selling its energy storage systems to X's  customer base, offering Tesla vehicles through X's distribution channels, or  combining software platforms to enhance connected car services. These actions  could lead to increased sales or new revenue streams post-acquisition."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Give me some examples of cost synergies in a hypothetical deal  between Tesla and X?",
+    "example": "Cost synergies in a Tesla-X deal might include consolidating  manufacturing facilities, reducing overlapping R&D efforts, or using combined  procurement power to get better rates on raw materials. The companies could also integrate their administrative functions like HR or finance to eliminate duplicative  costs."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How Can I calculate break-even synergies, and what does it mean if a  deal breaks even?",
+    "example": "Break-even synergies are the minimum amount of cost savings or  revenue gains needed to offset dilution and make a deal EPS-neutral. To calculate  them, you determine how much additional net income is required to maintain the  acquirer's EPS post-transaction. If a deal breaks even, it means the benefits are  just sufficient to prevent EPS decline, implying the acquisition is financially neutral  unless more synergies are realized."
+  ,"difficulty": "hard"
+  },
+  {
+    "question": "Imagine that we have a company that has a P/E of 20x and an after- tax cost of debt of 5%. Which funding method would lead to a more accretive  M&A deal?",
+    "example": "The more accretive funding method would be debt. A P/E of 20x  implies an earnings yield of 5%, equal to the after-tax cost of debt. However, debt  is usually preferred because it's senior in the capital structure, offers fixed interest  costs, and provides a tax shield. These features make it more attractive on a risk- adjusted basis, leading to greater or at least marginally more accretive outcomes."
+  ,"difficulty": "hard"
+  },
+  {
+    "question": "Company A has a P/E of 5x and Company B has a P/E of 9x.  Company A's cost of debt is 6%, and its tax rate is 50%. If Company A purchases  Company B using 50% stock and 50% debt, is the deal accretive or dilutive?",
+    "example": "The deal is slightly dilutive. Company A's earnings yield is 20% (1/5),  and the blended cost of capital is 11.5%. Since Company B's earnings yield is  11.1%, the return on the target's earnings is less than the acquisition cost. Despite  low-cost debt, issuing equity at a low multiple to buy higher-multiple earnings  creates dilution."
+  ,"difficulty": "hard"
+  },
+  {
+    "question": "Company A pays 150 million for Company B. It then decides it should  have paid 100 million 6 months later. What happens afterwards?",
+    "example": "Company A will record a $50 million goodwill impairment. When the  fair value reassessment reveals overpayment, the excess is written down as a  non-cash charge on the income statement. Though it doesn't affect cash flow, the  impairment may hurt investor sentiment and management credibility."
+  ,"difficulty": "hard"
+  },
+  {
+    "question": "In an all-stock transaction, what happens if the yield of the seller >  cost of equity of the buyer?",
+    "example": "The deal is generally accretive. If the seller's earnings yield exceeds  the buyer's cost of equity, the buyer effectively 'buys earnings' at a return higher  than the cost of issuing new shares. This enhances pro forma EPS and creates  value in an all-stock structure, mirroring the logic of using low-cost debt to  finance high-yield returns."
+  ,"difficulty": "hard"
+  },
+  {
+    "question": "Company A is currently trading for $30 per share with 10 shares  outstanding and net income of $15. They purchase Company B, which also has  $15 net income, in an all-stock deal. Is the deal accretive or dilutive?",
+    "example": "The deal is EPS-neutral. Company A issues 10 shares to acquire B,  resulting in 20 total shares and $30 combined net income. New EPS remains  $1.50, same as before. If a premium were paid or synergies excluded, the deal  might become slightly dilutive."
+  ,"difficulty": "hard"
+  },
+  {
+    "question": "Transaction with offer value \ue09b 800; net debt \ue09b 250; LTM EBITDA \ue09b  100 and pretax synergies \ue09b 5. Calculate EBITDA multiple adjusted for synergies.",
+    "example": "The adjusted EBITDA multiple is 7.6x. The enterprise value is $800,  Finance Prep Training Material 56 and adjusted EBITDA \ue09b 100 \ue09d 5 \ue09b 105. Thus, 800 \ue0a0 105 \ue0a2 7.62x. Including  synergies lowers the multiple, showing better value for the acquirer."
+  ,"difficulty": "hard"
+  },
+  {
+    "question": "Company A has a P/E of 6x and Company B has a P/E of 9x.  Company A's cost of debt is 8%, its cost of cash interest is 4%, and its tax rate is  50%. If Company A purchases Company B using 50% stock, 25% debt, and 25%  cash, is the deal accretive or dilutive?",
+    "example": "The deal is accretive. Company A's weighted cost of capital is  10.35%, while Company B's earnings yield is 11.1%. Since return exceeds cost, the  acquisition improves EPS even though B has a higher P/E."
+  ,"difficulty": "hard"
+  },
+  {
+    "question": "Why are most mergers considered to fail?",
+    "example": "Most mergers fail due to unrealized synergies, overpayment, and  underestimation of integration risks. Cultural mismatches, loss of key talent, and  poor planning often undermine expected value. Even if financially accretive,  strategic failures can dilute focus and impair innovation."
+  ,"difficulty": "hard"
+  },
+  {
+    "question": "What sensitivity metrics would we use in a merger model?",
+    "example": "In a merger model, common sensitivity metrics include the purchase  price (as a premium to market), the mix of consideration (cash, debt, stock), the  cost of financing (cost of debt, cost of equity), and the amount and timing of  synergies. Analysts test deal outcomes by varying these assumptions to assess  EPS accretion or dilution. Other variables include the assumed tax rate,  amortization of intangibles, and lost interest on cash used. These help evaluate  the robustness of the transaction under different scenarios."
+ ,"difficulty": "hard"
+  },
+  {
+    "question": "What is an asset sale and what is a stock sale? Which is more  advantageous and why?",
+    "example": "An asset sale involves buying selected assets and liabilities, while a  Finance Prep Training Material 57 stock sale transfers ownership of the entire legal entity. Asset sales favor buyers  by enabling a step-up in tax basis, allowing future deductions. Stock sales favor  sellers due to simpler legal transfer and lower capital gains taxes. Buyers avoid  hidden liabilities with asset deals; sellers avoid double taxation with stock sales.  Overall, buyers prefer asset deals, while sellers push for stock deals."
+ ,"difficulty": "hard"
+  },
+  {
+    "question": "Would a seller prefer a stock purchase or an asset purchase?",
+    "example": "Sellers usually prefer stock purchases. These offer a cleaner legal  transfer, lower capital gains taxes, and avoid double taxation in C-Corps. Asset  sales can leave sellers with unsold assets or liabilities, complicating the wind- down. Unless heavily incentivized, sellers advocate for stock sales."
+  ,"difficulty": "hard"
+  },
+  {
+    "question": "Why might a company want to employ the Section 338(h)(10) election  in a deal?",
+    "example": "Section 338(h)(10) allows a stock purchase to be treated as an asset  purchase for tax purposes. The buyer gains legal simplicity and a step-up in tax  basis for depreciation, improving post-deal cash flow. It's typically used when the  seller is an S-Corp or part of a consolidated group and both parties agree. The  buyer may need to compensate the seller for resulting tax consequences."
+  ,"difficulty": "hard"
+  },
+  {
+    "question": "How do DTA's and DTL's get created in a merger model?",
+    "example": "Deferred tax assets (DTAs) and liabilities (DTLs) arise from  differences in book vs. tax value of assets post-acquisition. A step-up in  accounting value not matched for tax purposes creates DTLs, while NOLs or tax  benefits carried forward create DTAs. These items adjust the balance sheet and  impact future tax rates and cash taxes in the model."
+  ,"difficulty": "hard"
+  },
+  {
+    "question": "How would accretion / dilution differ for a private company?",
+    "example": "Private companies lack market-based share prices or P/E ratios, so  EPS-based accretion/dilution analysis isn't applicable. Instead, analysis focuses  on whether acquisition returns exceed the cost of capital, or how valuation  multiples and ownership economics change. Pro forma income and IRR may be  Finance Prep Training Material 58 used instead. Because private equity is illiquid, deal structure and cash flows  carry more weight than EPS impact."
+  ,"difficulty": "hard"
+    }]
