@@ -1,0 +1,240 @@
+[{
+    "question": "What is a DCF?",
+    "example": "A DCF, or discounted cash flow analysis, is a fundamental valuation  method used to estimate the intrinsic value of a business by projecting its future  free cash flows and discounting them back to present value using the firm's  weighted average cost of capital. The goal is to determine what the company is  worth today based purely on its ability to generate cash in the future, independent  of market sentiment or comparables. It's rooted in the principle that the value of  Finance Prep Training Material 36 any asset is equal to the present value of its expected future cash flows."
+  ,"difficulty": "easy"
+  },
+  {
+    "question": "Why are DCF's important and how do they complement relative  analysis?",
+    "example": "DCF analysis is important because it is the only valuation method  based purely on a company's intrinsic performance and not on how similar  companies are priced. It complements relative valuation by acting as a check  against market-based multiples. If comps suggest a valuation that's far off from a  DCF output, it signals that the market might be mispricing the business or that  aggressive assumptions are embedded in either model. DCFs are especially useful  for businesses with stable and predictable cash flows or when comps are limited  or unreliable."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Walk me through a DCF",
+    "example": "To walk through a DCF, you start by projecting the company's  unlevered free cash flows over a discrete period, typically five to ten years. Then,  you calculate the terminal value using either the perpetuity growth method or the  exit multiple method to estimate value beyond the forecast period. Next, you  discount all future cash flows, including the terminal value, back to present value  using the weighted average cost of capital. The sum of these present values gives  you the enterprise value. To get to equity value, you subtract net debt and other  non-equity claims, then divide by the number of diluted shares outstanding."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How do unlevered and levered free cash flow differ?",
+    "example": "Unlevered free cash flow is the cash flow available to all capital  providers, before any interest payments, and it reflects the operations of the  business regardless of capital structure. Levered free cash flow is the cash flow  remaining after interest payments and is only available to equity holders. The key  distinction is that unlevered FCF excludes financing costs, while levered FCF  includes them. This means unlevered cash flow is used when calculating  enterprise value, while levered cash flow is used to arrive at equity value directly."
+  ,"difficulty": "medium"
+  },
+  {
+    "question":  "When would we use levered?",
+    "example": "We use levered free cash flow when the valuation is intended to reflect only the equity value of a company and especially when modeling scenarios that involve highly leveraged businesses. Levered FCF is also useful when we want to evaluate the business from the equity holder’s perspective, including the impact of interest obligations and financing choices. This approach becomes particularly relevant in private equity, distressed situations, or when debt plays a central role in capital structure."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How can you bridge from revenue to Free Cash Flow?",
+    "example": "To bridge from revenue to free cash flow, you start with revenue and  subtract cost of goods sold and operating expenses to get EBIT. Then, you apply  taxes to calculate NOPAT (Net Operating Profit After Tax). From NOPAT, you add  back non-cash charges like depreciation and amortization, subtract capital  expenditures, and adjust for changes in net working capital. This yields unlevered  free cash flow. Each step reflects real cash movements or retained cash  generation capacity, which is what drives intrinsic value."
+ ,"difficulty": "medium"
+  },
+  {
+    "question": "Why do you use 5 or 10 years for DCF projections?",
+    "example": "We use five to ten years for DCF projections because it's a long  enough period to reflect the company's financial trajectory, but short enough that  forecasts remain reasonably reliable. Beyond ten years, the uncertainty in revenue  growth, margin structure, and macroeconomic conditions becomes too great,  which is why those years are captured through a terminal value. The choice  between five and ten depends on industry stability, growth phase, and how far  into the future cash flows can be reasonably forecasted with confidence."
+ ,"difficulty": "medium"
+  },
+  {
+    "question": "Why is WACC important?",
+    "example": "WACC is important because it is the discount rate used in a DCF to  calculate the present value of future cash flows. It reflects the average required  return across all capital providers and captures the riskiness of the business. If a  company generates returns above its WACC, it is creating value; if returns are  below WACC, it is destroying value. WACC also helps compare investment  Finance Prep Training Material 38 opportunities and assess whether a project or acquisition meets the firm's  minimum return threshold."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What is the equation for WACC?",
+    "example": "The equation for WACC is: (E/V times Re) + (D/V times Rd \u00d7 (1 \ue089 Tc)), where E  is the market value of equity, D is the market value of debt, V is E \ue09d D, Re is cost of  equity, Rd is cost of debt, and Tc is the corporate tax rate. This formula blends the  cost of each capital source according to its share of the capital structure and  adjusts the cost of debt for its tax deductibility, making it a true after-tax weighted  average."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How do we calculate cost of equity?",
+    "example": "We calculate cost of equity using the Capital Asset Pricing Model  (CAPM), which estimates the return equity investors require given the risk of the  investment. The formula is: Cost of Equity \ue09b Risk-Free Rate \ue09d Beta times Market Risk  Premium. The risk-free rate reflects time value of money, beta captures relative  risk to the market, and the market risk premium reflects the expected excess  return of the market over the risk-free rate."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What is CAPM?",
+    "example": "CAPM stands for Capital Asset Pricing Model. It is used to calculate  the cost of equity by linking expected return to systematic risk. The model  assumes investors require a premium for taking on additional risk beyond the risk- free rate. The CAPM formula is: Cost of Equity \ue09b Risk-Free Rate \ue09d Beta times Market  Risk Premium. It is a cornerstone of modern finance and is widely used in DCFs,  WACC calculations, and equity valuation."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Is cost of equity for a startup or for NVIDIA higher?",
+    "example": "The cost of equity for a startup is higher than for NVIDIA because  Finance Prep Training Material 39 startups are riskier, less proven, and more volatile. Investors demand a higher  return to compensate for the uncertainty around cash flows, survival, and  execution risk. Even if a startup has a high expected upside, the lack of track  record and greater variability make it riskier, which directly increases the required  cost of equity."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Is the cost of equity for NVIDIA or Walmart higher?",
+    "example": "NVIDIA has a higher cost of equity than Walmart because it is more  volatile and operates in a sector with higher earnings sensitivity to market swings.  Walmart is a mature, stable, and defensive business, while NVIDIA is a high- growth, tech-driven company with higher beta and more earnings risk. Investors  demand a higher return to own NVIDIA stock, so its cost of equity is higher despite potentially higher expected growth."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What does Beta represent?",
+    "example": "Beta represents the sensitivity of a stock's returns to movements in  the broader market. A beta of 1 means the stock moves with the market, above 1  means more volatile than the market, and below 1 means less volatile. Beta  captures systematic risk \u2014 the part of a stock's risk that cannot be diversified  away \u2014 and is a key input in the CAPM formula used to calculate cost of equity."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How do we calculate levered beta in a DCF?",
+    "example": "To calculate levered beta in a DCF, you start with the unlevered beta  of comparable companies, which strips out the effects of debt, and then adjust it  to reflect your target company's capital structure. The formula is: Levered Beta \ue09b  Unlevered Beta \u00d7 \ue0831 \ue09d (1 \ue089 Tax Rate) \u00d7 (Debt/Equity)]. This process accounts for  the added risk equity holders bear due to leverage and ensures that the beta used  in the cost of equity calculation accurately reflects the financial risk profile of the  company."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Why is unlevering and relevering Beta important?",
+    "example": "Unlevering and relevering beta is important because it lets you  Finance Prep Training Material 40 remove the impact of capital structure when comparing business risk across  peers and then reapply the specific debt and equity mix of the target company.  This ensures that the beta you use in CAPM is customized to the firm's financial  risk, giving you a consistent and accurate cost of equity. Without this step, you  risk applying an apples-to-oranges measure of risk in your valuation."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Is debt or equity cheaper? Which is advantageous?",
+    "example": "Debt is cheaper than equity because interest payments are tax- deductible and debt holders take on less risk than equity investors, so they require  a lower return. Using some debt in a capital structure can reduce a company's  WACC and increase its valuation in a DCF. However, excessive debt raises default  risk and can destroy value, so while debt is generally cheaper, it must be used in  moderation to be truly advantageous."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How do interest rates impact WACC?",
+    "example": "Interest rates impact WACC primarily through the cost of debt. When  rates rise, borrowing becomes more expensive, which increases the weighted  average cost of capital. Higher WACC results in lower present values in a DCF,  reducing valuations. Additionally, rising rates may also affect the equity risk  premium and increase the cost of equity, further driving up WACC and pressuring  valuations across capital-intensive or highly levered businesses."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Where does Tax show up in a DCF?",
+    "example": "Tax shows up in a DCF in two ways. First, when calculating unlevered  free cash flow, EBIT is multiplied by (1 \ue089 tax rate) to determine Net Operating Profit  After Tax (NOPAT), which reflects the core profitability of the business after taxes.  Second, in WACC, the cost of debt is adjusted using (1 \ue089 tax rate) to capture the  tax shield that interest payments provide, which reduces the effective cost of  borrowing and lowers the overall discount rate."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How can you calculate the WACC of a private company?",
+    "example": "To calculate the WACC of a private company, you estimate inputs  Finance Prep Training Material 41 using comparable public companies. Use industry average beta and capital  structure, apply a CAPM-derived cost of equity, and estimate cost of debt based  on similar credit profiles or bank quotes. Because private firms are illiquid and  riskier, you often apply a small size or liquidity premium to the cost of equity.  Market values are unavailable, so capital structure weights are usually based on  book value or industry norms."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How would convertible debt affect WACC?",
+    "example": "Convertible debt affects WACC because it is a hybrid between debt  and equity. If it's likely to convert, it behaves more like equity and causes dilution,  which impacts the share count and equity value. If it remains as debt, it lowers  WACC due to lower interest rates and tax-deductibility. Depending on structure  and market assumptions, convertible debt can reduce the cost of capital in early  years while increasing dilution risk later, so its treatment depends on the likelihood  of conversion."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How would Cost of Equity change during a crisis?",
+    "example": "Cost of equity rises during a crisis because investors demand higher  returns to compensate for elevated risk and uncertainty. Market volatility  increases beta, and the equity risk premium expands as investors become more  risk-averse. As a result, CAPM outputs a higher cost of equity, which drives up  WACC and puts downward pressure on DCF valuations, especially for cyclical or  highly levered companies."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Would Beta of a technology company or a retail company be higher?",
+    "example": "The beta of a technology company is generally higher than that of a  retail company because tech businesses tend to be more sensitive to market  swings, growth expectations, and innovation cycles. Retail businesses, especially  those selling consumer staples, are often more defensive and exhibit lower  earnings volatility, which translates into a lower beta relative to tech peers."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Would the Beta of a start-up or NVIDIA?",
+    "example": "The beta of a start-up is almost always higher than NVIDIA's because  start-ups are inherently riskier with unproven business models, no earnings  history, and uncertain cash flows. NVIDIA, while volatile due to its growth profile,  is a publicly traded, profitable, and globally diversified firm, which gives it a lower  risk profile than a typical early-stage company."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What is the Beta of a gambling ring?",
+    "example": "The beta of a gambling ring would likely be very high, possibly well  above 1, because its earnings are highly speculative, dependent on consumer  confidence and discretionary income, and potentially illegal, making the cash  flows extremely volatile. It would also carry high systemic and regulatory risk,  contributing to an even higher beta compared to legitimate businesses."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What is the beta of a slots machine?",
+    "example": "The beta of a slot machine as a standalone asset is difficult to define,  but if you assume it's part of a gambling business, it would contribute to a high- beta profile. The revenues generated from slot machines are tied to consumer  behavior and economic cycles, which are both volatile. If modeled as a cash flow- producing asset, its returns would likely be highly sensitive to market movements."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What is the beta of gold?",
+    "example": "The beta of gold is typically close to zero or even slightly negative,  Finance Prep Training Material 43 because gold is seen as a safe-haven asset. When the market declines or enters a  crisis, gold prices often remain stable or rise, meaning it has little or no correlation  with broader equity markets. This makes gold a common hedge in portfolio  construction and gives it a near-zero beta."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How will increasing debt affect Beta, and thus cost of equity in  WACC?",
+    "example": "Increasing debt raises a company's levered beta because more debt  increases the financial risk borne by equity holders. Since beta measures volatility  of equity returns, adding leverage magnifies the swings in equity value during  good or bad market conditions. As levered beta rises, the cost of equity in the  WACC formula also increases, which can raise the company's overall cost of  capital."
+ ,"difficulty": "medium"
+  },
+  {
+    "question": "Company A and company B are the same. One has debt, one does  not. Which will have a higher WACC?",
+    "example": "Between Company A and Company B, if both are identical but one  has debt and the other does not, the one with debt will have the higher WACC if  the cost of financial distress outweighs the benefit of the tax shield from debt.  While moderate debt can lower WACC through the tax deductibility of interest,  excessive leverage raises risk and increases the cost of both debt and equity."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How would Beta change during a crisis?",
+    "example": "During a crisis, beta generally increases because companies become  more volatile relative to the market as investor uncertainty and fear drive sharper  swings in stock prices. Correlations across assets rise, risk premiums widen, and  most equities become more sensitive to macroeconomic shocks, all of which  contribute to higher beta values and thus a higher cost of equity."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How do we find terminal value? What two methods can we use to  arrive at a terminal value calculation?",
+    "example": "We calculate terminal value using one of two methods: the Gordon  Growth Model (GGM), also known as the perpetuity growth method, or the exit  multiple method. GGM assumes cash flows grow at a constant rate forever and  uses the formula: Terminal Value \ue09b Final Year FCF times (1 \ue09d g) / (WACC \ue089 g). The exit  multiple method applies a valuation multiple, such as EV/EBITDA, to the company's  final year metric based on observed market comparables."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "When is the GGM advantageous, and when is the multiple method  advantageous?",
+    "example": "The Gordon Growth Model is advantageous when a company has  stable, predictable cash flows and is expected to grow in line with the economy  over the long run. It's more appropriate for mature businesses in steady-state  industries. The exit multiple method is better when there are strong comparable  companies or transactions available, and it's commonly used in private equity or  investment banking due to its ease and market-referencing logic."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What's a solid growth rate to use when calculating the Terminal  Value?",
+    "example": "A solid growth rate to use in the GGM is typically between the long- term rate of inflation and GDP growth, often falling in the range of 2 to 3 percent  for developed economies. This conservative estimate reflects the assumption that  the company will grow at a sustainable pace indefinitely and avoids overstating  terminal value, which would distort the DCF."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What is a typical multiple to use, and how can we find them?",
+    "example": "A typical multiple used in the exit multiple method is the EV/EBITDA  multiple, but EV/EBIT or EV/FCF can also be appropriate depending on the  business. The right multiple is usually derived from comparable public companies  or precedent transactions and should reflect where the company would be trading  at the end of the projection period based on its maturity and margin profile."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What percent of total Enterprise Value is too high for a Terminal Value  calculation?",
+    "example": "Terminal value should not represent more than around 60 to 70  percent of total enterprise value in a DCF. If it exceeds that, it usually means either  the explicit forecast period is too short or the assumptions in the terminal value  calculation (growth rate or exit multiple) are too aggressive. A well-structured DCF  should balance near-term cash flow detail with a reasonable, grounded terminal  estimate."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Which has a greater impact on a company's DCF valuation \u2013 a 10%  change in revenue or a 1% change in the discount rate?",
+    "example": "A 1% change in the discount rate typically has a greater impact on a  company's DCF valuation than a 10% change in revenue because the discount rate affects the present value of all projected cash flows and the terminal value, which  is often the largest component of the valuation. Even small changes in the  discount rate can significantly alter the net present value, especially for long- duration cash flows."
+  ,"difficulty": "hard"
+  },
+  {
+    "question": "Which has a greater impact on a company’s DCF valuation – a 1% change in revenue or a 1% change in the discount rate?",
+    "example":   "A 1% change in the discount rate usually has a greater impact on valuation than a 1% change in revenue because the discount rate directly affects the time value of money applied to all cash flows and the terminal value. Revenue changes flow through margins and cash flow generation, but the discount rate impacts the entire structure of the valuation."
+  ,"difficulty": "hard"
+  },
+  {
+    "question": "If a company buys a factory in year 2 for 100 dollars, how does that  affect the EV of the company?",
+    "example": "If a company buys a factory in year 2 for 100 dollars, this would  appear as a capital expenditure and reduce free cash flow in that year. In the DCF,  this lowers the present value of that year's cash flow and can reduce enterprise  value, but the actual impact depends on whether the factory increases future  revenues or reduces costs. If the investment boosts future FCFs, the long-term  value may actually increase despite the near-term cash outflow."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "A company pays off 100 dollars of debt. How is their DCF affected?",
+    "example": "If a company pays off 100 dollars of debt, its enterprise value in the  DCF is unchanged because enterprise value is based on unlevered free cash flow  and is capital structure-neutral. However, the equity value would increase by 100  dollars since enterprise value minus less debt equals higher equity. In the DCF  model, the FCFs are not directly impacted by debt repayments unless you're  modeling levered cash flow."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What is the midyear convention and why is it important?",
+    "example": "The midyear convention assumes that cash flows are received evenly  throughout the year rather than all at year-end. It adjusts the discount period to  reflect earlier receipt of value, which results in slightly higher present values and a  more accurate valuation. It better reflects economic reality and increases the  precision of the DCF, especially in fast-growing or high-volatility businesses."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What discount period would we use in the midyear convention?",
+    "example": "In a midyear convention, the discount periods are adjusted by  subtracting 0.5 from each year. So instead of discounting Year 1 cash flows by 1.0,  you discount them by 0.5; Year 2 becomes 1.5, and so on. This reflects the  Finance Prep Training Material 47 assumption that cash is received midyear and improves valuation accuracy by  recognizing earlier cash flow timing."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How is our terminal value calculation altered from the midyear?",
+    "example": "With the midyear convention, the terminal value is still calculated as  of the end of the final projection year, but it must be discounted back by an extra  half year. For example, instead of discounting it using a Year 10 factor, you use a  9.5-year factor. This aligns it with the rest of the cash flows, which are assumed to  be received midyear, ensuring consistency across the model."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Why would a financial institution maybe not use a DCF?",
+    "example": "Financial institutions may not use a traditional DCF because their  balance sheets are asset-driven and interest-based, and their free cash flow is  difficult to define due to regulatory capital requirements. Instead, valuation for  banks and insurers often relies on dividend discount models or price-to-book and  ROE-based multiples, which better reflect their value generation mechanisms."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Would you use a DCF on an early stage start-up? How would you  make one for Facebook in its early stages?",
+    "example": "Using a DCF on an early-stage startup is difficult but possible with  heavy assumptions. For a company like early-stage Facebook, you'd forecast user  growth, engagement metrics, monetization rates, and operating leverage to build a  revenue and margin path. Given the uncertainty, you'd model multiple scenarios  and apply wide sensitivity bands. You'd likely rely more on top-down drivers and  long-term potential rather than granular financials."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What are the primary sensitivity metrics in a DCF?",
+    "example": "The primary sensitivity metrics in a DCF are the discount rate (WACC)  and the terminal value assumptions, which include terminal growth rate or exit  multiple. Other common sensitivity variables include revenue growth, EBITDA  margin, capital expenditures, and working capital. These metrics have the greatest  influence on the cash flows and final valuation, so they are often stress-tested  Finance Prep Training Material 48 across ranges in a sensitivity table."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "If you change from LIFO to FIFO and costs are rising, how would this  impact your DCF?",
+    "example": "Switching from LIFO to FIFO during periods of rising costs decreases  the cost of goods sold and increases reported profits. This boosts taxes and  increases free cash flow in the short term, resulting in a higher DCF valuation.  However, the increase is accounting-driven, not operational, and should be  adjusted for in a normalized model if the change doesn't reflect real economic  improvement."
+ ,"difficulty": "hard"
+  },
+  {
+    "question": "Let's say you are trying to make a DCF on a company that has a  limited peer set, 7% growth in their terminal year, and a 10-year projection period.  How would you determine the terminal value given the scenario?",
+    "example": "If you're valuing a company with limited peers, a 7% terminal growth  rate, and a 10-year forecast, you should be cautious with a multiple-based  terminal value. In this case, use the Gordon Growth Model instead, applying the  7% growth rate to final year free cash flow and discounting it using WACC. Justify  the high growth rate by tying it to market expansion, IP, or structural tailwinds and  test the valuation through scenario analysis and sensitivities."
+  ,"difficulty": "hard"
+  },
+  {
+    "question": "What determines how much a line item will affect a DCF?",
+    "example": "A line item affects a DCF in proportion to its size, volatility, and  position in the cash flow bridge. For example, revenue has a large impact because  it flows through margins, taxes, and capex assumptions. Terminal value is another  high-impact line because it often represents more than half of total value.  Generally, the earlier in the cash flow statement the item appears, and the more  recurring or scalable it is, the more influence it has on valuation."
+  ,"difficulty": "hard"
+    }]

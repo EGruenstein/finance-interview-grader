@@ -1,0 +1,185 @@
+[  {
+    "question": "Why is valuing companies important?",
+    "example": "Valuing companies is crucial for a variety of reasons, including  investment decisions, mergers and acquisitions, financial reporting, and regulatory  Finance Prep Training Material 28 compliance. Accurate valuations enable stakeholders to make informed decisions  regarding investments, financing, and strategic planning."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Specifically, why is it important in banking?",
+    "example": "In banking, accurate valuations are vital for lending decisions, risk  assessment, and determining the creditworthiness of borrowers. Misvaluing a  company can lead to poor investment choices and significant financial losses,  impacting the bank's overall health."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "You've been asked to advise your local laundromat on a potential  sale. How would you value the business?",
+    "example": "To value the laundromat, I would consider several methods:  Comparable Company Analysis to evaluate financial metrics of similar  laundromats; Precedent Transactions to understand buyer behavior; Discounted  Cash Flow (DCF) to project future cash flows and discount them to present value;  and Asset-Based Valuation to assess the value of the business's physical assets."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What is comparable company analysis?",
+    "example": "Comparable Company Analysis (Comps) is a method that evaluates  the valuations of similar publicly traded companies to estimate the value of the  business in question. It provides a market-based perspective on valuation."
+  ,"difficulty": "easy"
+  },
+  {
+    "question": "What are precedent transactions?",
+    "example": "Precedent Transactions Analysis examines past deals involving  similar companies to determine the valuation multiples used in those transactions.  It helps establish an expected range for the sale price of the business."
+  ,"difficulty": "easy"
+  },
+  {
+    "question": "What is an LBO?",
+    "example": "Leveraged Buyout (LBO) valuation is typically used by private equity  firms to assess whether a company can be purchased using a significant amount  of borrowed funds. It values the company based on its ability to generate cash  flow sufficient to service debt."
+  ,"difficulty": "easy"
+  },
+  {
+    "question": "Of the 4 most common valuation methods, which usually yields the  highest value and why?",
+    "example": "The DCF method often yields the highest value because it accounts  for expected future cash flows and growth potential, which may not be reflected in  current market prices."
+ ,"difficulty": "easy"
+  },
+  {
+    "question": "Of the 4 most common valuation methods, which usually yields the  lowest value and why?",
+    "example": "The Asset-Based Valuation frequently results in a lower value as it  focuses solely on tangible assets, overlooking intangible factors like brand value  and future growth."
+  ,"difficulty": "easy"
+  },
+  {
+    "question": "Why would a DCF yield a higher value than LBO?",
+    "example": "A DCF may yield a higher value than an LBO because it emphasizes  the company's cash-generating potential without the constraints of debt  financing. LBO valuations account for the amount of debt that can be taken on,  which may depress the overall valuation compared to the DCF approach."
+  ,"difficulty": "easy"
+  },
+  {
+    "question": "How should we select our peer group in relative valuation?",
+    "example": "Peer groups should be selected based on similarities in industry, size,  growth rate, profitability, and geographic exposure to ensure comparability and  meaningful valuation insights."
+  ,"difficulty": "easy"
+  },
+  {
+    "question": "What key metrics do we use in Comps and Precedent Transactions?",
+    "example": "Common metrics include EV/EBITDA, EV/Revenue, P/E ratio, and  Price/Book. These help assess valuation relative to earnings, cash flow, or asset  base and are chosen based on industry norms and data availability."
+  ,"difficulty": "easy"
+  },
+  {
+    "question": "When might it make most sense to use a DCF?",
+    "example": "A DCF is most appropriate when a company has predictable and  stable cash flows and when intrinsic valuation is needed to understand the true  value beyond market comparisons."
+  ,"difficulty": "easy"
+  },
+  {
+    "question": "When might it make most sense to use an LBO?",
+    "example": "An LBO makes the most sense when evaluating a potential leveraged  acquisition, especially in private equity, where the focus is on using debt to  amplify returns from stable cash flows."
+  ,"difficulty": "easy"
+  },
+  {
+    "question": "When might it make most sense to use Comps or Precedent  Transactions?",
+    "example": "Comps and Precedent Transactions are most useful when market- based benchmarks are needed, particularly in M&A scenarios or when assessing  relative valuation in an active sector."
+  ,"difficulty": "easy"
+  },
+  {
+    "question": "Are there other valuation methods we can use? What are some examples?",
+    "example": "Yes, additional methods include Sum-of-the-Parts valuation, Liquidation Valuation, and Economic Value Added (EVA). These are used when standard methods don't fully capture the complexity or specifics of a business."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How would we value an early-stage company with no revenue?",
+    "example": "For early-stage companies, valuation may rely on qualitative factors,  comparable startup funding rounds, or metrics like user growth, burn rate, and  market potential instead of revenue-based models."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Can multiples be transferred across different industries / peer  groups?",
+    "example": "No, because different industries have distinct growth rates, capital  requirements, and risk profiles. Applying multiples across industries can lead to  misleading conclusions."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How might we value a private company?",
+    "example": "Private companies can be valued using public comps with liquidity  and control discounts, DCF with conservative assumptions, or through precedent  transactions involving similar private firms."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How might we value a peach tree?",
+    "example": "A peach tree could be valued using an asset-based method (cost of  the tree) or an income approach (projecting the cash flows from fruit sales and  discounting to present value)."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How do you take into account a company's competitive advantage in  a valuation?",
+    "example": "Competitive advantage is factored into valuation through higher  growth projections in a DCF, premium multiples in comps, or qualitative  adjustments reflecting brand, IP, or market position."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What are 5 other valuation methods?",
+    "example": "Five other valuation methods include: (1) Sum-of-the-Parts analysis,  (2) Liquidation valuation, (3) Economic Value Added (EVA), (4) Replacement cost  method, and (5) Real options valuation. These approaches offer alternative  insights where traditional methods may not apply."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What multiples are most important in valuation?",
+    "example": "The most important multiples in valuation are EV/EBITDA, P/E  (Price/Earnings), and EV/EBIT. EV/EBITDA is capital structure-neutral and good for  comparing core operations. P/E reflects equity holder value. EV/EBIT includes D&A and is better for asset-intensive businesses."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What would you use as the numerator with Free Cash Flow multiples  \ue089 Equity Value or Enterprise Value?",
+    "example": "Use Enterprise Value when valuing Unlevered Free Cash Flow (UFCF)  and Equity Value for Levered Free Cash Flow (LFCF). UFCF is for all capital  holders, so EV is appropriate. LFCF is only for equity holders, hence Equity Value.  Mixing these leads to misaligned valuations."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Can we use other multiples such as Equity Value/EBITDA or EV/Net  Income? Why not?",
+    "example": "No \u2014 those are conceptually incorrect. Equity Value/EBITDA  mismatches an equity numerator with a pre-debt, pre-tax denominator. EV/Net  Income mismatches total firm value with earnings only available to equity holders.  These violate capital structure consistency."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What are some reasons a company might be valued at a premium to a  very similar competitor?",
+    "example": "A company might command a premium due to higher growth  expectations, better margins, stronger brand or IP, superior management, or  strategic synergies. Market sentiment and acquisition appeal can also drive  valuation differences despite similar financials."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Are multiples always accurate representations of the business?",
+    "example": "No \u2014 multiples are simplifications. They ignore nuances like capital  structure, accounting differences, and growth potential. Multiples are best used  alongside DCF and qualitative context for a fuller valuation picture."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "What are the key flaws with relative valuation?",
+    "example": "Key flaws include reliance on market pricing rather than intrinsic  value, potential for mispriced comps, and ignoring unique risks or advantages.  Misleading peer groups can distort valuation without careful selection and  adjustments."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Why do we use the median set of multiples in relative valuation?",
+    "example": "We use the median to minimize the effect of outliers, which can skew  the mean. The median provides a more stable and representative benchmark  when comparing companies, especially in small or volatile peer sets."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Are there some situations where precedent transactions might yield a  lower multiple than comps?",
+    "example": "Yes \u2014 if the M&A market is weak or targets are distressed,  transaction multiples may be lower. Precedent transactions reflect negotiated deal  terms and urgency, which can result in lower valuations than public comps."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How far back should we go for precedent transactions?",
+    "example": "In general, you should go back two to three years for precedent  transactions. This ensures relevance to current market conditions, valuation  climates, and industry dynamics. Older deals may reflect outdated environments  or economic conditions."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Tesla buys two infrastructure companies, company X and company Y. The companies are financially identical, but X is bought at twice the EBITDA  multiple? Why might this occur?",
+    "example": "Tesla may have paid a higher multiple for company X due to strategic  advantages like geographic presence, control of critical infrastructure, or synergy  potential. Negotiation dynamics, market timing, or urgency to close the deal could  also justify a premium."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Why does Warren Buffet prefer EBITDA to EBIT?",
+    "example": "Warren Buffett prefers EBITDA because it excludes depreciation and  amortization, which are non-cash and often arbitrary. EBITDA better reflects a  company's actual cash-generating ability and helps evaluate consistent, high- margin businesses."
+  ,"difficulty": "easy"
+  },
+  {
+    "question": "Why are P/E and EV/EBITDA important? How do they differ in our  understanding of the company?",
+    "example": "P/E and EV/EBITDA provide different investor perspectives. P/E  focuses on equity value post-interest and tax, making it useful for comparing  shareholder returns. EV/EBITDA is capital-structure-neutral and better for  analyzing operating performance across different financing structures."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "How might we value a private business differently in relative  valuation?",
+    "example": "Private businesses often require a liquidity discount when using  public comps due to lack of marketability. Adjustments may also be needed for  Finance Prep Training Material 35 differences in financial transparency, cost structure, and accounting standards."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "You are asked to analyze and compare the financial profiles of Exxon  Mobil and Tesla. What are the principal differences between the financial profiles  of the two companies that will impact their public valuation?",
+    "example": "Exxon Mobil is a mature, asset-heavy, dividend-paying business with  stable cash flows, while Tesla is a high-growth, asset-light company with  reinvestment needs. Differences in capital structure, risk, and innovation drive  distinct investor bases and valuation multiples."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Soda syrup company vs bottling company -- which trades at a higher  multiple?",
+    "example": "The soda syrup company usually trades at a higher multiple due to  higher margins, scalability, and brand power. The bottling company is more  capital-intensive and operationally complex, which generally leads to a lower  valuation."
+  ,"difficulty": "medium"
+  },
+  {
+    "question": "Tech company vs chemical company, which trades at higher  multiple?",
+    "example": "Tech companies typically trade at higher multiples due to faster  growth, asset-light models, and recurring revenue. Chemical companies are more  cyclical and capital-intensive, which results in lower valuation multiples."
+  ,"difficulty": "medium"
+  }]

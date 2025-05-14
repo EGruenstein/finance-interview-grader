@@ -8,7 +8,6 @@ __pycache__/
 # Jupyter and data outputs
 .ipynb_checkpoints/
 *.csv
-*.json
 
 # VSCode or PyCharm settings (optional)
 .vscode/
