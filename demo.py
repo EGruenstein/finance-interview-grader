@@ -39,49 +39,55 @@ from collections import defaultdict
 def generate_interview(template_name, section_data):
     template = INTERVIEW_TEMPLATES[template_name]
     used_hashes = st.session_state.used_questions
-    section_counts = defaultdict(int)
+    section_counts = {sec: 0 for sec in section_data.keys()}
     quotas = template.copy()
     final_questions = []
 
-    # Build difficulty pools
+    # Create pools by difficulty
     pools = {level: [] for level in quotas}
     for difficulty in quotas:
         for section, questions in section_data.items():
             for q in questions:
                 if q.get("difficulty") == difficulty and hash(q["question"]) not in used_hashes:
-                    question = q.copy()
-                    question["section"] = section
-                    pools[difficulty].append(question)
-        random.shuffle(pools[difficulty])  # Shuffle within each difficulty
+                    q = q.copy()
+                    q["section"] = section
+                    pools[difficulty].append(q)
+        random.shuffle(pools[difficulty])
+
+    max_per_section = 2
+    fallback_used = False
 
     while sum(quotas.values()) > 0:
-        # Make weighted list of difficulties that still have quota left
         available_difficulties = [
             d for d in quotas for _ in range(quotas[d]) if pools[d]
         ]
         if not available_difficulties:
-            break  # No more questions to pick
+            break
 
         chosen_diff = random.choice(available_difficulties)
-        # Try to find a question with < 2 in that section
+
         picked = None
         for idx, q in enumerate(pools[chosen_diff]):
-            if section_counts[q["section"]] < 2:
+            sec = q["section"]
+            if section_counts[sec] < max_per_section:
                 picked = q
                 del pools[chosen_diff][idx]
                 break
 
+        # If we couldn't find one with section room, relax the rule
+        if not picked and not fallback_used:
+            fallback_used = True
+            max_per_section = 3  # Loosen cap
+            continue
+
         if picked:
             final_questions.append(picked)
-            used_hashes.add(hash(picked["question"]))
             section_counts[picked["section"]] += 1
             quotas[chosen_diff] -= 1
-        else:
-            # Couldn't find one with valid section limit; mark as skipped
-            quotas[chosen_diff] -= 1  # Drop quota to avoid infinite loop
+            used_hashes.add(hash(picked["question"]))
 
     if sum(template.values()) != len(final_questions):
-        st.warning(f"⚠️ Only generated {len(final_questions)} of {sum(template.values())} questions.")
+        st.warning(f"⚠️ Only generated {len(final_questions)} of {sum(template.values())} questions. Check question pool balance.")
 
     return final_questions
 
@@ -143,8 +149,8 @@ if "questions" in st.session_state:
     st.title("Mock Interview")
 
     for i, q in enumerate(st.session_state.questions):
-        # st.markdown(f"### Q{i+1}: ({q['section'].capitalize()} — {q['difficulty'].capitalize()})")
-        st.markdown(f"### Q{i+1}:")
+        st.markdown(f"### Q{i+1}: ({q['section'].capitalize()} — {q['difficulty'].capitalize()})")
+        # st.markdown(f"### Q{i+1}:")
         st.write(q["question"])
         st.session_state.answers[i] = st.text_area(
             f"Your Answer to Q{i+1}", 
