@@ -1,0 +1,18 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter and data outputs
+.ipynb_checkpoints/
+*.csv
+*.json
+
+# VSCode or PyCharm settings (optional)
+.vscode/
+.idea/
+
+# Streamlit secrets file (just in case)
+.streamlit/secrets.toml

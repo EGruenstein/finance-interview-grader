@@ -2,125 +2,161 @@ import streamlit as st
 from openai import OpenAI
 import os
 import json
+import numpy as np
+from dotenv import load_dotenv
 
 
-
+load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-with open("examples.json") as f:
-    examples = json.load(f)
+with open("qa_with_embeddings.json") as f:
+    qa_data = json.load(f)
 
-qa_list = examples[:3]
+for q in qa_data:
+    q["embedding"] = np.array(q["embedding"])
 
-if "index" not in st.session_state:
-    st.session_state.index = 0
-    st.session_state.answers = []
-    st.session_state.feedback = []
-    st.session_state.completed = False
+if "asked_questions" not in st.session_state:
+    st.session_state.asked_questions = set()
 
-st.title("Finance Interview Grader")
-st.write("Answer 3 finance interview questions and receive feedback and an overall evaluation.")
 
-# current question
-idx = st.session_state.index
+def get_embedding(text):
+    response = client.embeddings.create(
+        model="text-embedding-3-small",
+        input=[text]
+    )
+    return response.data[0].embedding
 
-if idx < len(qa_list):
-    q = qa_list[idx]
-    question = q["question"]
-    example = q["example"]
+def cosine_similarity(vec1, vec2):
+    return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
 
-    st.subheader(f"Question {idx + 1}")
-    st.write(question)
 
-    # with st.expander("Example Answer"):
-    #     st.write(example)
+def get_best_question(user_query):
+    try:
+        query_vec = np.array(get_embedding(user_query))
 
-    answer = st.text_area("Your Answer", key=f"answer_{idx}", height=150)
+        # Filter out already asked questions
+        unseen = [q for i, q in enumerate(qa_data) if i not in st.session_state.asked_questions]
+        if not unseen:
+            return None
 
-    if st.button("Submit Answer"):
-        if not answer.strip():
-            st.warning("Please enter an answer before submitting.")
+        best_idx, best_q = max(
+            enumerate(unseen),
+            key=lambda pair: cosine_similarity(query_vec, pair[1]["embedding"])
+        )
+
+        # Find the index in the original qa_data so we can track it
+        real_index = qa_data.index(unseen[best_idx])
+        st.session_state.asked_questions.add(real_index)
+
+        return unseen[best_idx]
+    except Exception as e:
+        print("Error in get_best_question:", e)
+        return None
+
+
+# st.title("📊 Finance Interview Question Bot")
+
+# user_query = st.text_input("What type of finance question would you like?")
+
+# if user_query:
+#     question, example = get_best_question(user_query)
+#     st.subheader("🧠 Suggested Question:")
+#     st.write(question)
+#     with st.expander("💡 Example Answer"):
+#         st.write(example)
+
+
+
+def grade_answer(question, example, answer):
+    if len(answer.strip().split()) < 3:
+        return "Score: 0/10\nJustification: The answer is too short (fewer than 3 words)."
+
+    grading_prompt = f"""
+        You are a senior finance interviewer evaluating a candidate's answer. Compare it to the example and score from 1 to 10 based on accuracy, clarity, and completeness.
+
+        Respond using this format exactly:
+        Score: X/10  
+        Justification: <your reasoning>
+
+        ---
+
+        Question: {question}
+
+        Example Answer: {example}
+
+        Candidate Answer: {answer}
+    """
+
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "system", "content": "You are a strict but fair finance interviewer."},
+            {"role": "user", "content": grading_prompt}
+        ]
+    )
+    return response.choices[0].message.content.strip()
+
+# Streamlit UI
+# 🧠 Initialize session state
+if "stage" not in st.session_state:
+    st.session_state.stage = "ask"  # stages: ask, answer, feedback
+    st.session_state.selected = None
+    st.session_state.feedback = ""
+
+st.title("💼 Finance Interview Q&A Grader")
+
+# 🎯 Stage: Ask
+if st.session_state.stage == "ask":
+    user_query = st.text_input("Enter a topic or type of question (e.g. accounting, DCF, goodwill):")
+
+    if user_query:
+        with st.spinner("Finding the best question..."):
+            selected = get_best_question(user_query)
+
+        if selected:
+            st.session_state.selected = selected
+            st.session_state.stage = "answer"
+            st.rerun()
         else:
-            with st.spinner("Grading your answer..."):
+            st.error("❌ Could not find a matching question. Try a different topic.")
 
-                # Generate grading prompt
-                grading_prompt = f"""
-                You are a senior finance interviewer evaluating a candidate's answer.
+# 📝 Stage: Answer
+elif st.session_state.stage == "answer":
+    selected = st.session_state.selected
 
-                **Rules**:
-                - If the candidate's answer is under **5 words**, assign a score of **0/10** automatically.
-                - Otherwise, compare it to the example and score from 1 to 10 based on accuracy, clarity, and completeness.
+    st.subheader("Suggested Question:")
+    st.write(selected["question"])
+    # with st.expander("Example Answer"):
+    #     st.write(selected[1])
 
-                **Respond in this format exactly**:
-                Score: X/10  
-                Justification: <your explanation>
+    user_answer = st.text_area("Your Answer:")
 
-                ---
+    if st.button("Submit Answer for Grading"):
+        with st.spinner("Grading your answer..."):
+            feedback = grade_answer(selected["question"], selected["example"], user_answer)
+            st.session_state.feedback = feedback
+            st.session_state.user_answer = user_answer
+            st.session_state.stage = "feedback"
+            st.rerun()
 
-                Question: {question}
+    if st.button("🔁 Ask Another Question"):
+        st.session_state.stage = "ask"
+        st.session_state.selected = None
+        st.session_state.feedback = ""
+        st.rerun()
 
-                Example Answer: {example}
+# ✅ Stage: Feedback
+elif st.session_state.stage == "feedback":
+    st.subheader("Question")
+    st.write(st.session_state.selected["question"])
 
-                Candidate Answer: {answer}
-                """
+    st.subheader("Your Answer")
+    st.write(st.session_state.user_answer)
 
-                try:
-                    if len(answer.strip().split()) < 3:
-                        feedback = "Score: 0/10\nJustification: The answer was too short (fewer than 3 words) to be evaluated meaningfully."
-                    else:
-                        response = client.chat.completions.create(
-                            model="gpt-3.5-turbo",
-                            messages=[
-                                {"role": "system", "content": "You are a strict finance interviewer."},
-                                {"role": "user", "content": grading_prompt}
-                            ]
-                        )
-                        feedback = response.choices[0].message.content.strip()
-                    # response = client.chat.completions.create(
-                    #     model="gpt-3.5-turbo",
-                    #     messages=[
-                    #         # {"role": "system", "content": "You are an expert investment banking interviewer. Grade answers strictly based on accuracy and completeness."},
-                    #         {"role": "user", "content": grading_prompt}
-                    #     ]
-                    # )
-                    # feedback = response.choices[0].message.content.strip()
-                    st.session_state.answers.append(answer)
-                    st.session_state.feedback.append(feedback)
-                    st.session_state.index += 1
-                    st.rerun()
-                except Exception as e:
-                    st.error("Failed to get feedback from OpenAI.")
-                    st.text(str(e))
+    st.subheader("Grading Feedback")
+    st.markdown(st.session_state.feedback)
 
-else:
-    st.session_state.completed = True
-    st.header("Interview Summary")
-
-    for i in range(3):
-        st.subheader(f"Q{i+1}: {qa_list[i]['question']}")
-        st.markdown(f"**Your answer:** {st.session_state.answers[i]}")
-        st.markdown(f"**Feedback:** {st.session_state.feedback[i]}")
-
-    if st.button("Get Overall Evaluation", key="overall_button"):
-        with st.spinner("Generating overall evaluation..."):
-
-            summary_prompt = "You are a senior finance interviewer. Below is a summary of the candidate’s responses and the feedback they received:\n\n"
-            for i in range(3):
-                summary_prompt += f"Q{i+1}: {qa_list[i]['question']}\n"
-                summary_prompt += f"A: {st.session_state.answers[i]}\n"
-                summary_prompt += f"Feedback: {st.session_state.feedback[i]}\n\n"
-            summary_prompt += "Provide an overall score (out of 10) and a short summary. Start with 'Overall Score: X/10'."
-
-            try:
-                overall_res = client.chat.completions.create(
-                    model="gpt-3.5-turbo",
-                    messages=[
-                        {"role": "system", "content": "You are a senior finance interviewer. Evaluate candidate performance holistically."},
-                        {"role": "user", "content": summary_prompt}
-                    ]
-                )
-                overall_feedback = overall_res.choices[0].message.content.strip()
-                st.success("Overall Evaluation")
-                st.markdown(overall_feedback)
-            except Exception as e:
-                st.error("Failed to generate overall evaluation.")
-                st.text(str(e))
+    if st.button("🔁 Ask Another Question"):
+        st.session_state.stage = "ask"
+        st.session_state.selected = None
+        st.session_state.feedback = ""
+        st.rerun()
