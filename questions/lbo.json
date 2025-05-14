@@ -1,0 +1,115 @@
+[{
+    "question": "What is an LBO and can you provide some \u201cevery-day\u02ee examples?",
+    "example": "An LBO, or leveraged buyout, is a transaction where a company is  acquired using a significant amount of borrowed money \u2014 typically 60\ue08980% of  the purchase price \u2014 with the remainder funded by the buyer's own equity. The  target's assets and cash flows are used as collateral for the debt. (a) A relatable  example is buying a house with a mortgage: the buyer puts down some equity and  borrows the rest, hoping the value of the house appreciates enough to generate a  strong return on their investment. (b) Similarly, using a car loan to buy a vehicle  you intend to resell or lease is another example of using leverage to amplify return  on a smaller cash outlay. In both cases, the use of debt magnifies the return if the  asset value increases or generates income."
+  ,"difficulty": "medium"
+},
+  {
+    "question": "Why is leverage necessary?",
+    "example": "Leverage is necessary in an LBO because it allows the financial  sponsor to (a) control a large company with a relatively small amount of equity and (b) boost equity returns through the use of cheaper capital. By borrowing most of  the purchase price, sponsors reduce their upfront capital commitment and  increase their ability to generate a higher internal rate of return (IRR) on that  equity. Without leverage, the return on investment would be limited to the  company's organic earnings growth, but with debt, the sponsor gets a larger share  of the upside with less capital at risk \u2014 which is critical in private equity, where  capital efficiency and return targets drive the investment thesis."
+  ,"difficulty": "medium"
+},
+  {
+    "question": "Why do financial sponsors prefer debt to just cash?",
+    "example": "Financial sponsors prefer debt to just using cash because debt (a)  magnifies equity returns, (b) reduces the amount of capital tied up in a single deal,  and (c) is cheaper than equity due to tax-deductibility of interest. Sponsors target  Finance Prep Training Material 59 20\ue08925%\ue09d IRRs, and they achieve this by putting in minimal equity and using the  target's own future cash flows to repay debt. If a sponsor used 100% cash, the  return would mirror the company's growth rate \u2014 much lower than the leveraged  return. Additionally, by using debt, sponsors can (d) spread their equity across  multiple deals, improving portfolio diversification and capital productivity."
+  ,"difficulty": "medium"
+},
+  {
+    "question": "How does leverage increase returns?",
+    "example": "Leverage increases returns by reducing the amount of equity invested upfront and allowing that smaller equity base to capture the full benefit of the  company's future earnings and exit value. For example, (a) if you buy a company  for $100 using $20 of equity and $80 of debt, and you sell it later for $120 after  paying off the debt, your equity grows from $20 to $40 \ue08b a 2.0x multiple or 100%  return. Without debt, the return would only be 20%. This leverage effect works as  long as the company can service the debt and grow in value. However, (b) it cuts  both ways \u2014 if performance disappoints, equity can be wiped out quickly due to  the fixed nature of debt obligations."
+  ,"difficulty": "medium"
+},
+  {
+    "question": "How do we calculate returns in an LBO?",
+    "example": "Returns in an LBO are measured using two main metrics: IRR (Internal  Rate of Return) and MOIC (Multiple on Invested Capital). To calculate IRR, (a) you  project all equity cash inflows and outflows over the life of the investment \u2014  usually the sponsor's initial equity outlay and the equity proceeds received at exit  \u2014 and solve for the discount rate that sets the net present value to zero. MOIC, on  the other hand, (b) is simpler: it's the total equity received at exit divided by the  equity invested at entry. For example, if a sponsor invests $100 and receives $300  five years later, that's a 3.0x MOIC and a \ue0a325% IRR depending on timing. These  two metrics provide a full picture of both the magnitude and speed of returns."
+  ,"difficulty": "medium"
+},
+  {
+    "question": "What does IRR and MOIC mean?",
+    "example": "IRR stands for Internal Rate of Return and measures the annualized  rate of return on an investment, taking into account the timing of cash flows. A  25% IRR means you're compounding capital at 25% per year. MOIC, or Multiple on  Invested Capital, is a simpler ratio \u2014 it shows how many times your initial equity  Finance Prep Training Material 60 has grown. A 2.5x MOIC means you made 2.5 times your original investment,  regardless of how long it took. (a) MOIC shows absolute return, while (b) IRR  shows the speed of return. In PE, sponsors care about both \u2014 high MOIC with a  short holding period drives strong IRRs."
+  ,"difficulty": "medium"
+},
+  {
+    "question": "How long is the hold period in an LBO?",
+    "example": "The typical hold period in an LBO is 3 to 7 years, with 5 years being a  common base case in most models. This timeframe gives the sponsor enough  time to (a) implement operational improvements, (b) realize cost or revenue  synergies, and (c) position the company for a strategic sale, IPO, or recap. Some  hold periods may be shorter if market conditions are favorable or a strategic buyer  emerges early, while others may be extended if the sponsor needs more time to  improve financial performance or wait for a stronger valuation environment."
+ ,"difficulty": "medium"
+},
+  {
+    "question": "What makes a company an attractive LBO candidate?",
+    "example": "An ideal LBO candidate has (a) strong and predictable cash flows to  service debt, (b) a defensible market position with pricing power, (c) limited capex  and working capital needs, and (d) potential for margin expansion or operational  improvements. Other desirable traits include (e) undervaluation relative to cash  flow, (f) a clean balance sheet with minimal existing debt, and (g) a stable or  growing end-market. In short, a strong LBO target is one where a sponsor can  apply leverage safely, improve operations, and exit at a higher valuation multiple  or stronger earnings base \u2014 generating a high return on equity."
+  ,"difficulty": "medium"
+},
+  {
+    "question": "Why are LBOs considered the \u201cfloor valuation\u02ee of a company?",
+    "example": "LBOs are often considered the \u201cfloor valuation\u02ee because financial  sponsors will only pay a price that allows them to meet their minimum return  targets \u2014 usually 20%\ue09d IRR \ue08b based on conservative assumptions. This makes  an LBO model a natural backstop in valuation work. (a) Sponsors base their offers  on how much debt a company can support and how much equity return they can  generate over a typical 3\ue0895 year hold. (b) Strategic buyers may be willing to pay  more due to synergies or longer-term strategic fit, but sponsors will walk away if  the numbers don't pencil out. As a result, LBO valuation represents the lowest  Finance Prep Training Material 61 price a rational buyer with return constraints would be willing to pay."
+  ,"difficulty": "medium"
+},
+  {
+    "question": "Walk me through an LBO",
+    "example": "An LBO begins when a private equity firm identifies a company to  acquire using a mix of equity and a large portion of debt. Step one is calculating  the purchase price and determining how it will be funded \u2014 typically 60\ue08980%  debt and 20\ue08940% equity. Next, the firm projects the target's future free cash flows  over a 3\ue0897 year period. These cash flows are used to (a) service interest  payments, (b) pay down principal, and (c) improve the equity value. At exit, the  company is either sold or taken public, and the debt is repaid. The remaining  proceeds go to the PE firm. IRR and MOIC are then calculated based on the initial  equity investment vs. final equity proceeds. The entire model hinges on  conservative assumptions for revenue growth, margin expansion, and multiple  expansion at exit."
+ ,"difficulty": "medium"
+},
+  {
+    "question": "How can you raise the IRR of an LBO?",
+    "example": "You can raise the IRR in an LBO by improving the speed and size of  equity returns. The key levers include: (a) lowering the entry multiple or purchase  price, so you invest less upfront; (b) increasing the exit multiple, which enhances  the final equity value; (c) improving operating performance \u2014 such as revenue  growth, margin expansion, or cost reduction \u2014 to increase EBITDA and cash flow;  and (d) paying down debt faster, which reduces interest and increases the equity  share of the company. Additionally, (e) exiting earlier with strong performance  raises IRR due to the time value of money. Timing matters \u2014 earning the same  MOIC in 3 years vs. 5 years delivers a higher IRR."
+ ,"difficulty": "hard"
+},
+  {
+    "question": "Can you explain the advantages of LBO financing?",
+    "example": "LBO financing offers several advantages. First, (a) it allows a PE firm  to make large acquisitions with a small equity investment, increasing potential  returns through leverage. Second, (b) debt financing is typically cheaper than  equity because interest is tax-deductible, reducing the effective cost of capital.  Third, (c) using debt limits the downside risk for sponsors \u2014 they can walk away  with limited loss if things go poorly. Finally, (d) the presence of high debt creates  Finance Prep Training Material 62 strong discipline around cash flow management, forcing the company to operate  leaner and more efficiently. This structure also (e) aligns incentives across  management, lenders, and sponsors to maximize value creation."
+  ,"difficulty": "hard"
+},
+  {
+    "question": "What are some characteristics of a company that is a good LBO  candidate?",
+    "example": "Good LBO candidates share several traits. First, they have stable,  predictable cash flows that can comfortably support high debt loads. Second, they exhibit strong EBITDA margins and low capex requirements, which maximize free  cash flow. Third, the company ideally has a defensible market position, such as  brand strength, recurring revenues, or regulatory moats. Additional attributes  include a clean balance sheet with minimal debt, undervalued or misunderstood  equity, and room for operational improvement through cost cutting, pricing  optimization, or strategic repositioning."
+  ,"difficulty": "hard"
+},
+  {
+    "question": "Why are Goodwill & Other Intangibles created in an LBO?",
+    "example": "Goodwill and other intangibles are created when the purchase price  exceeds the fair value of the target's net identifiable assets. In most LBOs, the  sponsor pays a premium over book value \u2014 often driven by expected synergies,  brand equity, or growth potential. The excess purchase price is first allocated to  tangible and identifiable intangible assets (e.g., patents, trademarks). Any  remaining excess becomes Goodwill, which is a plug to balance the acquisition  accounting. These items are recorded on the post-transaction balance sheet and  can later be amortized or tested for impairment, depending on accounting rules  and deal structure."
+  ,"difficulty": "hard"
+},
+  {
+    "question": "What types of debt and tranches of debt are used in a LBO?",
+    "example": "LBOs typically use a capital structure with multiple layers of debt, or  'tranches,' that vary in cost and seniority. Common types include: Revolving Credit  Finance Prep Training Material 67 Facility, a flexible line of credit for working capital needs; Term Loan A (TLA),  senior secured, amortizing loan; Term Loan B (TLB), senior secured but longer- term and interest-only; High-Yield Bonds, unsecured debt with higher interest  rates; Mezzanine Debt, subordinated debt that may include equity warrants. Each  tranche has its own covenants, maturity, and interest rate. The right mix balances  cost, flexibility, and risk tolerance."
+  ,"difficulty": "hard"
+},
+  {
+    "question": "What factors determine what type of debt a PE firm will prefer?",
+    "example": "A PE firm chooses debt tranches based on several factors: Cost of  capital \u2014 senior secured loans have lower interest but tighter covenants; Flexibility \u2014 high-yield bonds offer fewer restrictions but are more expensive; Cash flow  profile \u2014 companies with stable cash flows can afford amortizing debt, while  cyclical ones may need bullet maturities; Refinancing risk and exit plans \u2014 if a  sponsor plans a quick exit, long-term or interest-only debt may be preferred.  Lastly, availability of lender appetite affects the mix: syndication environment and  macro rates shape what's feasible."
+  ,"difficulty": "hard"
+},
+  {
+    "question": "Considering the ideal profile of an LBO, why would technology  companies still be attractive to financial sponsors?",
+    "example": "Although tech companies may lack steady cash flow, they're  attractive to PE firms because of high growth potential, recurring revenue models  (like SaaS), and strong gross margins. Tech firms often have scalable platforms,  minimal capex, and embedded customer lock-in \u2014 all traits that can offset initial  volatility. Sponsors can use lower leverage and focus on growth equity or  structured LBOs. In particular, software companies with predictable subscription  revenues, high retention, and positive cash flow are ideal tech LBO candidates  despite the sector's historic reputation for instability."
+ ,"difficulty": "hard"
+},
+  {
+    "question": "Where does tax show up in an LBO?",
+    "example": "Taxes appear in several parts of the LBO model. First, you tax EBIT to  compute Net Operating Profit After Taxes (NOPAT), which is used in free cash  flow. Second, interest expense on debt reduces taxable income, creating a tax  shield that enhances cash flow. Third, you model deferred taxes, including  Finance Prep Training Material 68 changes in DTLs and DTAs, especially from purchase accounting adjustments.  Fourth, in certain deals, step-ups in asset values or 338(h)(10) elections affect  depreciation and tax expense. Accurate tax modeling is critical because even  small changes in tax assumptions can materially impact free cash flow and equity  returns."
+ ,"difficulty": "hard"
+},
+  {
+    "question": "What are some other ways to increase IRR besides purchase price,  exit multiple, and operations? How do dividend recapitalizations help firms return  capital to their investors?",
+    "example": "Beyond purchase price, exit multiple, and operations, IRR can be  boosted by deleveraging early, shortening the hold period, using asset sales or  spin-offs, and executing dividend recapitalizations. A dividend recap is when the  company takes on additional debt post-close to issue a cash dividend to the  sponsor. This allows the PE firm to return capital to LPs before an exit, effectively  de-risking the deal and raising IRR. Since IRR is time-sensitive, pulling capital out  early \u2014 even partially \u2014 significantly enhances return profiles even if the MOIC  remains the same."
+ ,"difficulty": "hard"
+},
+  {
+    "question": "What is the IRR of a creditor in an LBO?",
+    "example": "The IRR of a creditor in an LBO is typically equal to the contractual  interest rate on the debt, because creditors receive fixed interest payments and  principal repayment regardless of equity performance. For example, if the senior  debt carries an 8% coupon, the creditor's IRR is 8%. Unlike equity holders,  creditors do not share in the upside \u2014 nor do they bear the downside unless  there's a default. Because of their priority in the capital structure, creditor returns  are lower but more secure, and the IRR is set by the agreed-upon yield, not the  exit value."
+ ,"difficulty": "hard"
+},
+  {
+    "question": "What are covenants in an LBO?",
+    "example": "Covenants are contractual restrictions placed on the borrower by  lenders to limit risk and protect their downside. There are two types: maintenance  covenants, which require the company to stay within certain financial ratios (like  debt/EBITDA or interest coverage) on an ongoing basis, and incurrence  Finance Prep Training Material 69 covenants, which restrict specific actions \u2014 such as issuing more debt, making  acquisitions, or paying dividends \u2014 unless certain conditions are met. Cov-lite  structures may relax these terms. In an LBO, covenants help lenders monitor  performance and prevent the borrower from overleveraging or misusing capital."
+ ,"difficulty": "hard"
+},
+  {
+    "question": "What does the IRR function translate to?",
+    "example": "The IRR function calculates the annualized rate of return on an  investment, assuming that all interim cash flows are reinvested at the same rate. In  simple terms, it tells you: what average return you earn each year on your invested equity and accounts for both the amount and timing of those cash flows. For  LBOs, it takes the sponsor's initial equity investment and compares it to the equity  proceeds at exit, solving for the rate that makes the net present value of all equity  cash flows equal to zero. IRR answers the question: 'What return did we earn on  our capital each year?'"
+  ,"difficulty": "hard"
+},
+  {
+    "question": "If leverage is 10x EBITDA and the cost of debt is 10%, what is the  interest coverage ratio?",
+    "example": "If we have $10 of EBITDA for $100 of debt, a 10% cost of debt would  imply $10 of interest expense. Therefore, we would have $10 of EBITDA for every  $10 of interest expense, leaving us with a 1.0x interest coverage ratio."
+  ,"difficulty": "hard"
+    }]
