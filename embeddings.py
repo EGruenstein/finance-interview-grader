@@ -3,10 +3,10 @@ import json
 import numpy as np
 import os
 import time
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os
 
-load_dotenv()  # Load variables from .env
+# load_dotenv()  # Load variables from .env
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 def get_embedding(text):

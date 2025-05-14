@@ -102,11 +102,11 @@ if "stage" not in st.session_state:
     st.session_state.selected = None
     st.session_state.feedback = ""
 
-st.title("💼 Finance Interview Q&A Grader")
+st.title("Finance Interview")
 
 # 🎯 Stage: Ask
 if st.session_state.stage == "ask":
-    user_query = st.text_input("Enter a topic or type of question (e.g. accounting, DCF, goodwill):")
+    user_query = st.text_input("Enter a topic or type of question:")
 
     if user_query:
         with st.spinner("Finding the best question..."):
