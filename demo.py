@@ -165,12 +165,12 @@ if st.session_state.get("submitted"):
     if not st.session_state.feedback:
         st.session_state.feedback = []
 
-        for i, (section, q) in enumerate(st.session_state.questions):
+        for i, q in enumerate(st.session_state.questions):
             user_ans = st.session_state.answers[i]
             fb = grade_answer(q["question"], q["example"], user_ans, client)
             st.session_state.feedback.append(fb)
 
-    for i, (section, q) in enumerate(st.session_state.questions):
+    for i, q in enumerate(st.session_state.questions):
         st.markdown(f"### Q{i+1}: ({section.capitalize()} — {q['difficulty'].capitalize()})")
         st.markdown(f"**Your Answer:** {st.session_state.answers[i]}")
         st.markdown(f"**Feedback:** {st.session_state.feedback[i]}")
