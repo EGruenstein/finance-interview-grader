@@ -3,10 +3,10 @@ from openai import OpenAI
 import os
 import json
 import numpy as np
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 
-load_dotenv()
+# load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 with open("qa_with_embeddings.json") as f:
     qa_data = json.load(f)
