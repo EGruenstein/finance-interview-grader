@@ -4630,7 +4630,7 @@
   },
   {
     "question": "What are implicit costs?",
-    "example": "Implicit costs are driven by the idea of the time value of money and  the business owner's time. For example, instead of buying $50 of steak, Chipotle  could have invested $50 into something else on the market, which would have  safely generated a 4% return per year. After 1 year, Chipotle would have $52.  Instead, they purchased $50 worth of steak.",
+    "example": "Implicit costs are driven by the idea of the time value of money and  the business owner's time. For example, instead of buying \\$50 of steak, Chipotle  could have invested \\$50 into something else on the market, which would have  safely generated a 4% return per year. After 1 year, Chipotle would have \\$52.  Instead, they purchased \\$50 worth of steak.",
     "difficulty": "easy",
     "embedding": [
       0.012300274334847927,
@@ -6173,7 +6173,7 @@
   },
   {
     "question": "Which is a good business? (Clark, Alice, or Nick)",
-    "example": "B. Alice is a good business. Alice's total explicit costs are $5, while  Finance Prep Training Material 1 her implicit costs are $2. The implicit costs are comprised of the $1 of her time  and the $1 of interest she could have earned on the $5 she spent. This meets the  criteria of generating returns above both explicit and implicit costs.",
+    "example": "B. Alice is a good business. Alice's total explicit costs are \\$5, while  Finance Prep Training Material 1 her implicit costs are \\$2. The implicit costs are comprised of the \\$1 of her time  and the \\$1 of interest she could have earned on the \\$5 she spent. This meets the  criteria of generating returns above both explicit and implicit costs.",
     "difficulty": "easy",
     "embedding": [
       -0.006080292165279388,
@@ -47833,8 +47833,8 @@
     ]
   },
   {
-    "question": "If your depreciation expense goes up by $1,000, explain how this  flows through the three financial statements.",
-    "example": "An increase of $1,000 in depreciation expense would reduce net  income by $1,000 on the income statement. In the cash flow statement, this  $1,000 would be added back under operating activities, showing no impact on  cash flow. On the balance sheet, the asset value would decrease by $1,000, which  would also reduce retained earnings by $1,000 due to the lower net income.",
+    "question": "If your depreciation expense goes up by \\$1,000, explain how this  flows through the three financial statements.",
+    "example": "An increase of \\$1,000 in depreciation expense would reduce net  income by \\$1,000 on the income statement. In the cash flow statement, this  \\$1,000 would be added back under operating activities, showing no impact on  cash flow. On the balance sheet, the asset value would decrease by \\$1,000, which  would also reduce retained earnings by \\$1,000 due to the lower net income.",
     "difficulty": "easy",
     "embedding": [
       -0.006168222054839134,
@@ -60177,8 +60177,8 @@
     ]
   },
   {
-    "question": "Accounts receivable increases by $20. Assuming a 20% tax rate,  walk me through how this affects the 3 statements.",
-    "example": "Income Statement: No immediate impact on net income, as accounts  receivable is a balance sheet item. Cash Flow Statement: Cash flow from  Finance Prep Training Material 9 operating activities decreases by $20 due to the increase in accounts receivable.  Balance Sheet: Accounts receivable increases by $20, impacting total assets.",
+    "question": "Accounts receivable increases by \\$20. Assuming a 20% tax rate,  walk me through how this affects the 3 statements.",
+    "example": "Income Statement: No immediate impact on net income, as accounts  receivable is a balance sheet item. Cash Flow Statement: Cash flow from  Finance Prep Training Material 9 operating activities decreases by \\$20 due to the increase in accounts receivable.  Balance Sheet: Accounts receivable increases by \\$20, impacting total assets.",
     "difficulty": "easy",
     "embedding": [
       5.967671677353792e-05,
@@ -61720,8 +61720,8 @@
     ]
   },
   {
-    "question": "Inventory increases by $100. Assuming a 10% tax rate, walk me  through how this affects the 3 statements.",
-    "example": "Income Statement: No immediate impact on net income. Cash Flow  Statement: Cash flow from operating activities decreases by $100 due to the cash  spent on purchasing inventory. Balance Sheet: Inventory increases by $100,  impacting total assets.",
+    "question": "Inventory increases by \\$100. Assuming a 10% tax rate, walk me  through how this affects the 3 statements.",
+    "example": "Income Statement: No immediate impact on net income. Cash Flow  Statement: Cash flow from operating activities decreases by \\$100 due to the cash  spent on purchasing inventory. Balance Sheet: Inventory increases by \\$100,  impacting total assets.",
     "difficulty": "easy",
     "embedding": [
       -0.021487263962626457,
@@ -63263,8 +63263,8 @@
     ]
   },
   {
-    "question": "Prepaid expenses increase by $20. Assuming a 50% tax rate, walk  me through how this affects the 3 statements.",
-    "example": "Income Statement: No immediate impact on net income. Cash Flow  Statement: Cash flow from operating activities decreases by $20 due to cash  payment. Balance Sheet: Prepaid expenses increase by $20, impacting total  assets.",
+    "question": "Prepaid expenses increase by \\$20. Assuming a 50% tax rate, walk  me through how this affects the 3 statements.",
+    "example": "Income Statement: No immediate impact on net income. Cash Flow  Statement: Cash flow from operating activities decreases by \\$20 due to cash  payment. Balance Sheet: Prepaid expenses increase by \\$20, impacting total  assets.",
     "difficulty": "easy",
     "embedding": [
       0.00461568171158433,
@@ -64806,8 +64806,8 @@
     ]
   },
   {
-    "question": "Inventory decreases by $100. Assuming a 10% tax rate, walk me  through how this affects the 3 statements.",
-    "example": "Income Statement: No immediate impact on net income (unless the  decrease results from a sale, in which case it would lower cost of goods sold).  Cash Flow Statement: Cash flow from operating activities increases by $100 as  less cash is tied up in inventory. Balance Sheet: Inventory decreases by $100,  which improves cash on hand or increases other assets by the same amount.",
+    "question": "Inventory decreases by \\$100. Assuming a 10% tax rate, walk me  through how this affects the 3 statements.",
+    "example": "Income Statement: No immediate impact on net income (unless the  decrease results from a sale, in which case it would lower cost of goods sold).  Cash Flow Statement: Cash flow from operating activities increases by \\$100 as  less cash is tied up in inventory. Balance Sheet: Inventory decreases by \\$100,  which improves cash on hand or increases other assets by the same amount.",
     "difficulty": "easy",
     "embedding": [
       -0.008746035397052765,
@@ -66349,8 +66349,8 @@
     ]
   },
   {
-    "question": "Accrued compensation decreases by $100. Assuming a 10% tax rate,  walk me through how this affects the 3 statements.",
-    "example": "Income Statement: Net income increases by $90 ($100 reduction in  liability - $10 tax effect). Cash Flow Statement: Cash flow from operating activities  decreases by $100 as cash is used to settle the liability. Balance Sheet: Accrued  compensation decreases by $100, impacting liabilities and increasing retained  Finance Prep Training Material 10 earnings due to higher net income.",
+    "question": "Accrued compensation decreases by \\$100. Assuming a 10% tax rate,  walk me through how this affects the 3 statements.",
+    "example": "Income Statement: Net income increases by \\$90 ($100 reduction in  liability - \\$10 tax effect). Cash Flow Statement: Cash flow from operating activities  decreases by \\$100 as cash is used to settle the liability. Balance Sheet: Accrued  compensation decreases by \\$100, impacting liabilities and increasing retained  Finance Prep Training Material 10 earnings due to higher net income.",
     "difficulty": "easy",
     "embedding": [
       -0.0014429932925850153,
@@ -67892,8 +67892,8 @@
     ]
   },
   {
-    "question": "Prepaid expenses decrease by $20. Assuming a 50% tax rate, walk  me through how this affects the 3 statements.",
-    "example": "Income Statement: No immediate impact on net income as it simply  recognizes services previously paid for. Cash Flow Statement: Cash flow from  operating activities increases by $20 because cash is no longer tied up in prepaid  expenses. Balance Sheet: Prepaid expenses decrease by $20, increasing total  assets.",
+    "question": "Prepaid expenses decrease by \\$20. Assuming a 50% tax rate, walk  me through how this affects the 3 statements.",
+    "example": "Income Statement: No immediate impact on net income as it simply  recognizes services previously paid for. Cash Flow Statement: Cash flow from  operating activities increases by \\$20 because cash is no longer tied up in prepaid  expenses. Balance Sheet: Prepaid expenses decrease by \\$20, increasing total  assets.",
     "difficulty": "easy",
     "embedding": [
       0.007236021105200052,
@@ -69435,8 +69435,8 @@
     ]
   },
   {
-    "question": "Accounts payable decreases by $20. Assuming a 20% tax rate, walk  me through how this affects the 3 statements.",
-    "example": "Income Statement: No immediate impact on net income. Cash Flow  Statement: Cash flow from operating activities decreases by $20 as cash is used  to settle the payable. Balance Sheet: Accounts payable decreases by $20,  impacting total liabilities.",
+    "question": "Accounts payable decreases by \\$20. Assuming a 20% tax rate, walk  me through how this affects the 3 statements.",
+    "example": "Income Statement: No immediate impact on net income. Cash Flow  Statement: Cash flow from operating activities decreases by \\$20 as cash is used  to settle the payable. Balance Sheet: Accounts payable decreases by \\$20,  impacting total liabilities.",
     "difficulty": "easy",
     "embedding": [
       -0.011433222331106663,
@@ -70978,8 +70978,8 @@
     ]
   },
   {
-    "question": "Accrued expenses decrease by $50. Assuming a 40% tax rate, walk  me through how this affects the 3 statements.",
-    "example": "Income Statement: Net income increases by $30 ($50 reduction in  liability - $20 tax effect). Cash Flow Statement: Cash flow from operating activities  decreases by $50 due to cash being used to settle the expense. Balance Sheet:  Accrued expenses decrease by $50, impacting liabilities and increasing retained  earnings by $30.",
+    "question": "Accrued expenses decrease by \\$50. Assuming a 40% tax rate, walk  me through how this affects the 3 statements.",
+    "example": "Income Statement: Net income increases by \\$30 ($50 reduction in  liability - \\$20 tax effect). Cash Flow Statement: Cash flow from operating activities  decreases by \\$50 due to cash being used to settle the expense. Balance Sheet:  Accrued expenses decrease by \\$50, impacting liabilities and increasing retained  earnings by \\$30.",
     "difficulty": "easy",
     "embedding": [
       -0.011600879952311516,
@@ -72521,8 +72521,8 @@
     ]
   },
   {
-    "question": "Deferred revenue decreases by $100. Assuming a 25% tax rate, walk  me through how this affects the 3 statements.",
-    "example": "Income Statement: Net income increases by $75 ($100 revenue  recognized - $25 tax effect). Cash Flow Statement: Cash flow from operating  activities remains unchanged, as the cash was received previously when the  revenue was deferred. Balance Sheet: Deferred revenue decreases by $100,  Finance Prep Training Material 11 impacting total liabilities and increasing retained earnings by $75 due to higher net  income.",
+    "question": "Deferred revenue decreases by \\$100. Assuming a 25% tax rate, walk  me through how this affects the 3 statements.",
+    "example": "Income Statement: Net income increases by \\$75 ($100 revenue  recognized - \\$25 tax effect). Cash Flow Statement: Cash flow from operating  activities remains unchanged, as the cash was received previously when the  revenue was deferred. Balance Sheet: Deferred revenue decreases by \\$100,  Finance Prep Training Material 11 impacting total liabilities and increasing retained earnings by \\$75 due to higher net  income.",
     "difficulty": "easy",
     "embedding": [
       -0.012418676167726517,
@@ -78693,8 +78693,8 @@
     ]
   },
   {
-    "question": "If Company A buys a factory for $100, what happens to the three  statements?",
-    "example": "Income Statement: No immediate impact; future depreciation will  reduce net income over time. Cash Flow Statement: Cash flow from investing  activities decreases by $100 due to the cash outflow for the purchase. Balance  Sheet: Factory value (asset) increases by $100, while cash decreases by $100,  Finance Prep Training Material 12 keeping total assets unchanged.",
+    "question": "If Company A buys a factory for \\$100, what happens to the three  statements?",
+    "example": "Income Statement: No immediate impact; future depreciation will  reduce net income over time. Cash Flow Statement: Cash flow from investing  activities decreases by \\$100 due to the cash outflow for the purchase. Balance  Sheet: Factory value (asset) increases by \\$100, while cash decreases by \\$100,  Finance Prep Training Material 12 keeping total assets unchanged.",
     "difficulty": "easy",
     "embedding": [
       -0.004870621953159571,
@@ -83323,7 +83323,7 @@
   },
   {
     "question": "If Company A buys a factory for 100 dollars, what happens to the  three statements?",
-    "example": "Income Statement: No immediate impact; future depreciation will  reduce net income over time. Cash Flow Statement: Cash flow from investing  activities decreases by $100 due to the cash outflow for the purchase. Balance  Sheet: Factory value (asset) increases by $100, while cash decreases by $100,  keeping total assets unchanged.",
+    "example": "Income Statement: No immediate impact; future depreciation will  reduce net income over time. Cash Flow Statement: Cash flow from investing  activities decreases by \\$100 due to the cash outflow for the purchase. Balance  Sheet: Factory value (asset) increases by \\$100, while cash decreases by \\$100,  keeping total assets unchanged.",
     "difficulty": "easy",
     "embedding": [
       -0.014909341931343079,
@@ -84866,7 +84866,7 @@
   },
   {
     "question": "What if the company buys it with 100 dollars of debt that pays 10%  interest? At the start of year 2, what happens?",
-    "example": "Income Statement (Year 1): No impact from the purchase; interest  expense of $10 ($100 times 10%) will reduce net income in Year 2. Cash Flow  Finance Prep Training Material 13 Statement (Year 1): Cash flow from financing increases by $100, while cash flow  from investing decreases by $100, netting out. Balance Sheet (Year 1): Factory  value increases by $100; cash decreases by $100. Liabilities increase by $100 due  to the debt. Start of Year 2: Interest expense recognized impacts net income and  decreases retained earnings; liabilities remain the same.",
+    "example": "Income Statement (Year 1): No impact from the purchase; interest  expense of \\$10 ($100 times 10%) will reduce net income in Year 2. Cash Flow  Finance Prep Training Material 13 Statement (Year 1): Cash flow from financing increases by \\$100, while cash flow  from investing decreases by \\$100, netting out. Balance Sheet (Year 1): Factory  value increases by \\$100; cash decreases by \\$100. Liabilities increase by \\$100 due  to the debt. Start of Year 2: Interest expense recognized impacts net income and  decreases retained earnings; liabilities remain the same.",
     "difficulty": "easy",
     "embedding": [
       -0.023542946204543114,
@@ -86408,8 +86408,8 @@
     ]
   },
   {
-    "question": "Two years later, factories all break down and the value of the  equipment is written down to $0. The loan must also be paid back now. What  happens on the statements?",
-    "example": "Income Statement: A loss of $100 from the write-down of equipment  will reduce net income. Cash Flow Statement: Write-down doesn't affect cash  flow; however, cash flow from financing will decrease when repaying the loan.  Balance Sheet: Equipment decreases by $100, impacting total assets; liabilities will  decrease by the repayment amount of the loan.",
+    "question": "Two years later, factories all break down and the value of the  equipment is written down to \\$0. The loan must also be paid back now. What  happens on the statements?",
+    "example": "Income Statement: A loss of \\$100 from the write-down of equipment  will reduce net income. Cash Flow Statement: Write-down doesn't affect cash  flow; however, cash flow from financing will decrease when repaying the loan.  Balance Sheet: Equipment decreases by \\$100, impacting total assets; liabilities will  decrease by the repayment amount of the loan.",
     "difficulty": "medium",
     "embedding": [
       -0.0050047882832586765,
@@ -87951,8 +87951,8 @@
     ]
   },
   {
-    "question": "Tesla buys $100 of inventory. What happens to the three  statements?",
-    "example": "Income Statement: No immediate impact; future cost of goods sold  will affect it when inventory is sold. Cash Flow Statement: Cash flow from  operating activities decreases by $100 due to cash used for the purchase. Balance Sheet: Inventory increases by $100, while cash decreases by $100, resulting in no  change to total assets.",
+    "question": "Tesla buys \\$100 of inventory. What happens to the three  statements?",
+    "example": "Income Statement: No immediate impact; future cost of goods sold  will affect it when inventory is sold. Cash Flow Statement: Cash flow from  operating activities decreases by \\$100 due to cash used for the purchase. Balance Sheet: Inventory increases by \\$100, while cash decreases by \\$100, resulting in no  change to total assets.",
     "difficulty": "easy",
     "embedding": [
       -0.025761093944311142,
@@ -91037,8 +91037,8 @@
     ]
   },
   {
-    "question": "Company sells PPE for $120. On the BS, the PPE is worth $100. What happens to the three statements?",
-    "example": "Income Statement: Gain of $20 ($120 sale - $100 book value) is recognized, increasing net income. Cash Flow Statement: Cash flow from investing activities increases by $120 due to the sale of PPE. Balance Sheet: PPE decreases by $100; cash increases by $120, leading to a net increase in assets of $20 (increase in retained earnings due to the gain on sale).",
+    "question": "Company sells PPE for \\$120. On the BS, the PPE is worth \\$100. What happens to the three statements?",
+    "example": "Income Statement: Gain of \\$20 ($120 sale - \\$100 book value) is recognized, increasing net income. Cash Flow Statement: Cash flow from investing activities increases by \\$120 due to the sale of PPE. Balance Sheet: PPE decreases by \\$100; cash increases by \\$120, leading to a net increase in assets of \\$20 (increase in retained earnings due to the gain on sale).",
     "difficulty": "medium",
     "embedding": [
       -0.00822086539119482,
@@ -92580,8 +92580,8 @@
     ]
   },
   {
-    "question": "In year 1, Apple buys $100 worth of new factories with debt. Start of  year 2. Debt is high yield, so no principal is paid off, and interest rate is 10%.  Factories depreciate at a rate of 10% per year. What happens to the 3  statements?",
-    "example": "Income Statement: Depreciation expense will appear as $10 ($100 times  10%), reducing net income by $10. Interest expense on the debt will add an  additional $10 of expense, further reducing net income by $10. Overall, net income  decreases by $20 in year 2. Cash Flow Statement: Cash flow from operating  activities will reflect the decrease in net income. However, since both depreciation  and interest are non-cash or financing-related items respectively, the cash flow  from operating activities will effectively be adjusted by adding back depreciation  ($10), resulting in total cash flow from operations decreasing by $10. Cash flow  from financing activities reflects the interest payment of $10 (if paid), leading to a  cash outflow of $10. Balance Sheet: The value of the factories (PPE) will decrease  by $10 due to depreciation, dropping from $100 to $90. Cash will decrease by $10  if interest is paid. Total assets will thus decrease by $20 overall (cash decreases  and PPE value decreases), reflecting the lower net income and the interest  expense.",
+    "question": "In year 1, Apple buys \\$100 worth of new factories with debt. Start of  year 2. Debt is high yield, so no principal is paid off, and interest rate is 10%.  Factories depreciate at a rate of 10% per year. What happens to the 3  statements?",
+    "example": "Income Statement: Depreciation expense will appear as \\$10 ($100 times  10%), reducing net income by \\$10. Interest expense on the debt will add an  additional \\$10 of expense, further reducing net income by \\$10. Overall, net income  decreases by \\$20 in year 2. Cash Flow Statement: Cash flow from operating  activities will reflect the decrease in net income. However, since both depreciation  and interest are non-cash or financing-related items respectively, the cash flow  from operating activities will effectively be adjusted by adding back depreciation  ($10), resulting in total cash flow from operations decreasing by \\$10. Cash flow  from financing activities reflects the interest payment of \\$10 (if paid), leading to a  cash outflow of \\$10. Balance Sheet: The value of the factories (PPE) will decrease  by \\$10 due to depreciation, dropping from \\$100 to \\$90. Cash will decrease by \\$10  if interest is paid. Total assets will thus decrease by \\$20 overall (cash decreases  and PPE value decreases), reflecting the lower net income and the interest  expense.",
     "difficulty": "medium",
     "embedding": [
       -0.022780155763030052,
@@ -97209,8 +97209,8 @@
     ]
   },
   {
-    "question": "Walk me through a $10 impairment of goodwill?",
-    "example": "Income Statement: A $10 impairment of goodwill would be recorded  as an expense, reducing net income by $10. Cash Flow Statement: Since  impairment is a non-cash expense, it does not directly affect cash flow from  operating activities. However, it will be added back to net income in the operating  activities section, so cash flow remains unaffected in this context. Balance Sheet:  The impairment leads to a reduction in the goodwill asset by $10, decreasing total  assets. Retained earnings also decrease by $10, reflecting the lower net income.",
+    "question": "Walk me through a \\$10 impairment of goodwill?",
+    "example": "Income Statement: A \\$10 impairment of goodwill would be recorded  as an expense, reducing net income by \\$10. Cash Flow Statement: Since  impairment is a non-cash expense, it does not directly affect cash flow from  operating activities. However, it will be added back to net income in the operating  activities section, so cash flow remains unaffected in this context. Balance Sheet:  The impairment leads to a reduction in the goodwill asset by \\$10, decreasing total  assets. Retained earnings also decrease by \\$10, reflecting the lower net income.",
     "difficulty": "medium",
     "embedding": [
       0.021680859848856926,
@@ -101838,8 +101838,8 @@
     ]
   },
   {
-    "question": "If Company A buys Company B for $200, but its assets are worth  $100, what happens?",
-    "example": "The purchase creates goodwill because Company A pays a premium  of $100 over the fair value of Company B's net identifiable assets ($200 purchase  price - $100 asset value). Balance Sheet: Goodwill recognized will be $100 on  Company A's balance sheet as an intangible asset. Cash Flow Statement: Cash  flow from investing activities will reflect a cash outflow of $200 for the acquisition,  assuming Company A pays cash. Income Statement: There is no immediate impact on net income; however, future impairment of goodwill or depreciation of any  acquired assets will affect net income in subsequent periods.",
+    "question": "If Company A buys Company B for \\$200, but its assets are worth  \\$100, what happens?",
+    "example": "The purchase creates goodwill because Company A pays a premium  of \\$100 over the fair value of Company B's net identifiable assets ($200 purchase  price - \\$100 asset value). Balance Sheet: Goodwill recognized will be \\$100 on  Company A's balance sheet as an intangible asset. Cash Flow Statement: Cash  flow from investing activities will reflect a cash outflow of \\$200 for the acquisition,  assuming Company A pays cash. Income Statement: There is no immediate impact on net income; however, future impairment of goodwill or depreciation of any  acquired assets will affect net income in subsequent periods.",
     "difficulty": "medium",
     "embedding": [
       0.009732570499181747,
@@ -104925,7 +104925,7 @@
   },
   {
     "question": "What happens when NVIDIA writes down an asset by 100 dollars?",
-    "example": "When NVIDIA writes down an asset by $100, its asset value  decreases by $100 on the balance sheet. This write-down results in a $100  decrease in net income on the income statement, which in turn decreases retained earnings on the equity section of the balance sheet.",
+    "example": "When NVIDIA writes down an asset by \\$100, its asset value  decreases by \\$100 on the balance sheet. This write-down results in a \\$100  decrease in net income on the income statement, which in turn decreases retained earnings on the equity section of the balance sheet.",
     "difficulty": "medium",
     "embedding": [
       0.0024486358743160963,
@@ -106468,7 +106468,7 @@
   },
   {
     "question": "What happens when NVIDIA writes down its debt by 100 dollars?",
-    "example": "If NVIDIA writes down its debt by $100, the liabilities on the balance  sheet decrease by $100. The write-down is typically recognized as income on the  Finance Prep Training Material 17 income statement, increasing net income by $100 and subsequently increasing  retained earnings on the balance sheet.",
+    "example": "If NVIDIA writes down its debt by \\$100, the liabilities on the balance  sheet decrease by \\$100. The write-down is typically recognized as income on the  Finance Prep Training Material 17 income statement, increasing net income by \\$100 and subsequently increasing  retained earnings on the balance sheet.",
     "difficulty": "medium",
     "embedding": [
       -0.010172641836106777,
@@ -108011,7 +108011,7 @@
   },
   {
     "question": "NVIDIA gets in some trouble, and requires a 100 dollar bailout? What  happens to the three statements?",
-    "example": "The bailout will result in an inflow of $100 cash, increasing assets on  the balance sheet. The cash will be recorded as income (or adjustment) on the  income statement, impacting net income positively. The equity section on the  balance sheet will increase due to retained earnings reflecting the positive net  income.",
+    "example": "The bailout will result in an inflow of \\$100 cash, increasing assets on  the balance sheet. The cash will be recorded as income (or adjustment) on the  income statement, impacting net income positively. The equity section on the  balance sheet will increase due to retained earnings reflecting the positive net  income.",
     "difficulty": "medium",
     "embedding": [
       -0.01469710934907198,
@@ -114183,7 +114183,7 @@
   },
   {
     "question": "A company buys a factory in year 1 for 100. In year two it sells it for  80 dollars. Assuming straight line depreciation, walk me through the changes to  the three statements.",
-    "example": "After one year of straight-line depreciation (e.g., $20 if depreciated  over 5 years), the factory's book value is $80. When sold for $80, there is no gain  or loss, so: Income Statement: No effect on net income. Cash Flow Statement:  \ue09d$80 cash inflow from the sale. Balance Sheet: Assets decrease by $100 (factory)  and cash increases by $80, leading to total assets down by $20.",
+    "example": "After one year of straight-line depreciation (e.g., \\$20 if depreciated  over 5 years), the factory's book value is \\$80. When sold for \\$80, there is no gain  or loss, so: Income Statement: No effect on net income. Cash Flow Statement:  \ue09d$80 cash inflow from the sale. Balance Sheet: Assets decrease by \\$100 (factory)  and cash increases by \\$80, leading to total assets down by \\$20.",
     "difficulty": "medium",
     "embedding": [
       -0.02615288645029068,
@@ -115726,7 +115726,7 @@
   },
   {
     "question": "A company buys a factory in year 1 for 100. In year 3 it sells it for 120  dollars. Assuming straight line depreciation, walk me through the changes to the  three statements.",
-    "example": "After two years of straight-line depreciation (e.g., $40 total), the  factory's book value is $60. When sold for $120, there is a gain of $60. Thus:  Income Statement: \ue09d$60 gain increases net income. Cash Flow Statement: \ue09d$120  cash inflow from the sale. Balance Sheet: Assets decrease by $100 (factory), cash  increases by $120, and retained earnings increase by $60 (from net income),  resulting in total asset increase.",
+    "example": "After two years of straight-line depreciation (e.g., \\$40 total), the  factory's book value is \\$60. When sold for \\$120, there is a gain of \\$60. Thus:  Income Statement: \ue09d$60 gain increases net income. Cash Flow Statement: \ue09d$120  cash inflow from the sale. Balance Sheet: Assets decrease by \\$100 (factory), cash  increases by \\$120, and retained earnings increase by \\$60 (from net income),  resulting in total asset increase.",
     "difficulty": "medium",
     "embedding": [
       -0.017478644847869873,
@@ -118812,7 +118812,7 @@
   },
   {
     "question": "If I record 10 dollars of taxes through GAAP accounting, and 20 in  cash-based accounting, did I create a DTA or DTL? What about the inverse?",
-    "example": "Recording $10 in taxes under GAAP but $20 in cash accounting  creates a Deferred Tax Liability (DTL) because the cash payment exceeds the tax  expense recognized. Conversely, if GAAP recorded $20 and cash-based $10, it  would create a Deferred Tax Asset (DTA).",
+    "example": "Recording \\$10 in taxes under GAAP but \\$20 in cash accounting  creates a Deferred Tax Liability (DTL) because the cash payment exceeds the tax  expense recognized. Conversely, if GAAP recorded \\$20 and cash-based \\$10, it  would create a Deferred Tax Asset (DTA).",
     "difficulty": "hard",
     "embedding": [
       0.007387926336377859,
@@ -120355,7 +120355,7 @@
   },
   {
     "question": "Company has NOLs of 100 in DTA line item on BS because it had  been unprofitable. Company turns a profit and has PTI of 200 this year. Walk  through the 3 financial statements assuming NOLs are used as a direct tax  deduction on the financial statements.",
-    "example": "Income Statement: Net income increases by $200, but $100 NOL is  used as a tax deduction, resulting in taxes payable and effective tax expense.  Assuming a 25% tax rate, taxes on $200 profit are $50, but $100 NOL offsets this,  leading to no taxes paid, so net income remains $200. Cash Flow Statement: Net  income of $200, adding back non-cash expenses (none here), results in operating  cash flow of $200. Balance Sheet: DTA decreases by $100. Retained earnings  increase by $200, leading to equity growth.",
+    "example": "Income Statement: Net income increases by \\$200, but \\$100 NOL is  used as a tax deduction, resulting in taxes payable and effective tax expense.  Assuming a 25% tax rate, taxes on \\$200 profit are \\$50, but \\$100 NOL offsets this,  leading to no taxes paid, so net income remains \\$200. Cash Flow Statement: Net  income of \\$200, adding back non-cash expenses (none here), results in operating  cash flow of \\$200. Balance Sheet: DTA decreases by \\$100. Retained earnings  increase by \\$200, leading to equity growth.",
     "difficulty": "hard",
     "embedding": [
       -0.012750542722642422,
@@ -126527,7 +126527,7 @@
   },
   {
     "question": "Company raises 100 worth of debt at 5% interest and 10% yearly  principal payment to purchase 100 worth of short-term securities with 10%  interest. What happens at the end of Year 1 after the company has earned interest  and paid back some debt principal?",
-    "example": "At the end of Year 1, the company pays back $10 of debt principal. It  incurs $5 in interest expense and earns $10 in interest income from the securities.  Income Statement: Net effect: $5 (interest income minus interest expense)  increases net income. Cash Flow Statement: Cash from operating activities  increases by $10 (interest income), and cash flows from financing decrease by  $10 (principal repayment). Balance Sheet: Debt liabilities decrease by $10, cash  increases net by $10, and the investment in securities remains.",
+    "example": "At the end of Year 1, the company pays back \\$10 of debt principal. It  incurs \\$5 in interest expense and earns \\$10 in interest income from the securities.  Income Statement: Net effect: \\$5 (interest income minus interest expense)  increases net income. Cash Flow Statement: Cash from operating activities  increases by \\$10 (interest income), and cash flows from financing decrease by  \\$10 (principal repayment). Balance Sheet: Debt liabilities decrease by \\$10, cash  increases net by \\$10, and the investment in securities remains.",
     "difficulty": "medium",
     "embedding": [
       -0.0020960657857358456,
@@ -129612,8 +129612,8 @@
     ]
   },
   {
-    "question": "Walk me through the impacts on the three financial statements after a  company pays out dividends of $200 in cash.",
-    "example": "Income Statement: No effect, as dividends are not an expense. Cash  Finance Prep Training Material 21 Flow Statement: Cash flow from financing activities decreases by $200. Balance  Sheet: Cash decreases by $200, and retained earnings decrease by $200,  reflecting the payout.",
+    "question": "Walk me through the impacts on the three financial statements after a  company pays out dividends of \\$200 in cash.",
+    "example": "Income Statement: No effect, as dividends are not an expense. Cash  Finance Prep Training Material 21 Flow Statement: Cash flow from financing activities decreases by \\$200. Balance  Sheet: Cash decreases by \\$200, and retained earnings decrease by \\$200,  reflecting the payout.",
     "difficulty": "medium",
     "embedding": [
       0.03044808655977249,
@@ -131155,8 +131155,8 @@
     ]
   },
   {
-    "question": "Explain the financial statement effects when a company repurchases  $200 of its own shares.",
-    "example": "Income Statement: There is no immediate effect on the income  statement, as the share repurchase does not count as an expense. Cash Flow  Statement: Cash flow from financing activities decreases by $200 due to the cash  outflow for the share repurchase. Balance Sheet: Cash decreases by $200, and  the equity section decreases by the same amount, reflecting a reduction in  stockholders' equity.",
+    "question": "Explain the financial statement effects when a company repurchases  \\$200 of its own shares.",
+    "example": "Income Statement: There is no immediate effect on the income  statement, as the share repurchase does not count as an expense. Cash Flow  Statement: Cash flow from financing activities decreases by \\$200 due to the cash  outflow for the share repurchase. Balance Sheet: Cash decreases by \\$200, and  the equity section decreases by the same amount, reflecting a reduction in  stockholders' equity.",
     "difficulty": "medium",
     "embedding": [
       0.000490320788230747,
@@ -132698,8 +132698,8 @@
     ]
   },
   {
-    "question": "Describe how the three financial statements are affected when a  company amortizes $20 of intangible assets. Assume a 25% tax rate.",
-    "example": "Income Statement: The amortization expense of $20 reduces net  income by $20. After applying a 25% tax rate, the tax effect reduces net income  further by $5, leading to a total decrease in net income of $15. Cash Flow  Statement: The $20 amortization expense is a non-cash item, so it gets added  back to net income, meaning the cash flow from operations remains unchanged  despite the decrease in net income. Balance Sheet: Intangible assets decrease by  $20 due to amortization, and retained earnings decrease by $15 as a result of the  lower net income, impacting the equity section.",
+    "question": "Describe how the three financial statements are affected when a  company amortizes \\$20 of intangible assets. Assume a 25% tax rate.",
+    "example": "Income Statement: The amortization expense of \\$20 reduces net  income by \\$20. After applying a 25% tax rate, the tax effect reduces net income  further by \\$5, leading to a total decrease in net income of \\$15. Cash Flow  Statement: The \\$20 amortization expense is a non-cash item, so it gets added  back to net income, meaning the cash flow from operations remains unchanged  despite the decrease in net income. Balance Sheet: Intangible assets decrease by  \\$20 due to amortization, and retained earnings decrease by \\$15 as a result of the  lower net income, impacting the equity section.",
     "difficulty": "medium",
     "embedding": [
       0.002352014882490039,
