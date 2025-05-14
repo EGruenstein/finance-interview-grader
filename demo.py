@@ -149,8 +149,8 @@ if "questions" in st.session_state:
     st.title("Mock Interview")
 
     for i, q in enumerate(st.session_state.questions):
-        st.markdown(f"### Q{i+1}: ({q['section'].capitalize()} — {q['difficulty'].capitalize()})")
-        # st.markdown(f"### Q{i+1}:")
+        # st.markdown(f"### Q{i+1}: ({q['section'].capitalize()} — {q['difficulty'].capitalize()})")
+        st.markdown(f"### Q{i+1}:")
         st.write(q["question"])
         st.session_state.answers[i] = st.text_area(
             f"Your Answer to Q{i+1}", 
