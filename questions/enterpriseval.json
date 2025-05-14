@@ -33946,7 +33946,7 @@
     ]
   },
   {
-    "question": "Let's say a company has 1,000 shares outstanding, at a share price of $100 each. It also has 10 options outstanding at an exercise price of $120 each. What is its fully diluted equity value?",
+    "question": "Let's say a company has 1,000 shares outstanding, at a share price of 100 dollars each. It also has 10 options outstanding at an exercise price of 120 dollars each. What is its fully diluted equity value?",
     "example": "Since the exercise price ($120) is greater than the market price  ($100), the options are out of the money and will not be exercised. The fully  diluted equity value is simply the basic equity value: $1,000 x $100 \ue09b $100,000.",
     "difficulty": "medium",
     "embedding": [
