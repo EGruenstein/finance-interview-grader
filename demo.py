@@ -204,7 +204,7 @@ if "questions" in st.session_state and st.session_state.questions:
         )
 
         if remaining <= 0:
-            st.write("Time's up. Please submit your answer.")
+            st.warning("Time's up. Please submit your answer.")
 
 
         # if st.session_state.timer_expired and not st.session_state.submitted_current:
