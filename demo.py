@@ -8,7 +8,7 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 with open("examples.json") as f:
     examples = json.load(f)
 
-time_limit = 120
+time_limit = 10
 
 INTERVIEW_TEMPLATES = {
     "Bulge Bracket (7 easy, 7 medium)": {"easy": 7, "medium": 7, "hard": 0},
