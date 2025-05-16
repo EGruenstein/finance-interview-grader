@@ -222,7 +222,7 @@ if "questions" in st.session_state and st.session_state.questions:
                     st.session_state.submitted_current = True
                     st.session_state.waiting_next = True
                     # st.session_state.disabled_input = True
-                    st.experimental_rerun()
+                    st.rerun()
         else:
             st.info("Answer submitted")
 
@@ -234,7 +234,7 @@ if "questions" in st.session_state and st.session_state.questions:
                     st.session_state.submitted_current = False
                     st.session_state.waiting_next = False
                     # st.session_state.disabled_input = False
-                    st.experimental_rerun()
+                    st.rerun()
 
         if not st.session_state.submitted_current:
             time.sleep(1)
