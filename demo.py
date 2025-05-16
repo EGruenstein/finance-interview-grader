@@ -203,6 +203,9 @@ if "questions" in st.session_state and st.session_state.questions:
             disabled=st.session_state.disabled_input
         )
 
+        if remaining <= 0:
+            st.write("Time's up. Please submit your answer.")
+
 
         # if st.session_state.timer_expired and not st.session_state.submitted_current:
         #     st.warning("⏱️ Time's up! Submitting your answer...")
@@ -218,7 +221,7 @@ if "questions" in st.session_state and st.session_state.questions:
         if not st.session_state.submitted_current:
             submit = st.button("Submit Answer")
 
-            if submit or remaining<=0:
+            if submit:
                 with st.spinner("Grading..."):
                     latest_answer = st.session_state.get(f"answer_{idx}", "").strip()
                     st.session_state.answers[idx] = latest_answer
