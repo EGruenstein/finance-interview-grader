@@ -156,7 +156,7 @@ if st.button("Generate Interview"):
         st.session_state.completed = False
         st.session_state.submitted_current = False
         st.session_state.waiting_next = False
-        # st.session_state.disabled_input = False
+        st.session_state.disabled_input = False
         st.session_state.timer_expired = False
         st.rerun()
 
@@ -167,8 +167,8 @@ if "questions" in st.session_state and st.session_state.questions:
         st.session_state.submitted_current = False
     if "waiting_next" not in st.session_state:
         st.session_state.waiting_next = False
-    # if "disabled_input" not in st.session_state:
-    #     st.session_state.disabled_input = False
+    if "disabled_input" not in st.session_state:
+        st.session_state.disabled_input = False
     
     questions = st.session_state.questions
     idx = st.session_state.index
@@ -196,7 +196,12 @@ if "questions" in st.session_state and st.session_state.questions:
 
         # # Show text input
         # disabled = False
-        st.session_state.answers[idx] = st.text_area("Your Answer:", value=st.session_state.answers[idx], key=f"answer_{idx}")
+        st.session_state.answers[idx] = st.text_area(
+            "Your Answer", 
+            value=st.session_state.answers[idx], 
+            key=f"answer_{idx}", 
+            disabled=st.session_state.disabled_input
+        )
 
 
         # if st.session_state.timer_expired and not st.session_state.submitted_current:
@@ -221,7 +226,7 @@ if "questions" in st.session_state and st.session_state.questions:
                     st.session_state.feedback[idx] = feedback
                     st.session_state.submitted_current = True
                     st.session_state.waiting_next = True
-                    # st.session_state.disabled_input = True
+                    st.session_state.disabled_input = True
                     st.rerun()
         else:
             st.info("Answer submitted")
@@ -233,7 +238,7 @@ if "questions" in st.session_state and st.session_state.questions:
                     st.session_state.start_time = time.time()
                     st.session_state.submitted_current = False
                     st.session_state.waiting_next = False
-                    # st.session_state.disabled_input = False
+                    st.session_state.disabled_input = False
                     st.rerun()
 
         if not st.session_state.submitted_current:
