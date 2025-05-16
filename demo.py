@@ -238,7 +238,7 @@ if "questions" in st.session_state and st.session_state.questions:
 
         if not st.session_state.submitted_current:
             time.sleep(1)
-            st.experimental_rerun()
+            st.rerun()
 
     else:
         st.session_state.completed = True
