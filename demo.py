@@ -8,7 +8,7 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 with open("examples.json") as f:
     examples = json.load(f)
 
-time_limit = 10
+time_limit = 120
 
 INTERVIEW_TEMPLATES = {
     "Bulge Bracket (7 easy, 7 medium)": {"easy": 7, "medium": 7, "hard": 0},
@@ -204,16 +204,16 @@ if "questions" in st.session_state and st.session_state.questions:
         )
 
 
-        if st.session_state.timer_expired and not st.session_state.submitted_current:
-            st.warning("⏱️ Time's up! Submitting your answer...")
+        # if st.session_state.timer_expired and not st.session_state.submitted_current:
+        #     st.warning("⏱️ Time's up! Submitting your answer...")
             
-            feedback = grade_answer(question, example, st.session_state.answers[idx], client)
-            st.session_state.feedback[idx] = feedback
-            st.session_state.submitted_current = True
-            st.session_state.waiting_next = True
-            st.session_state.disabled_input = True
-            st.session_state.timer_expired = False  # Reset for next question
-            st.rerun()
+        #     feedback = grade_answer(question, example, st.session_state.answers[idx], client)
+        #     st.session_state.feedback[idx] = feedback
+        #     st.session_state.submitted_current = True
+        #     st.session_state.waiting_next = True
+        #     st.session_state.disabled_input = True
+        #     st.session_state.timer_expired = False  # Reset for next question
+        #     st.experimental_rerun()
 
         if not st.session_state.submitted_current:
             submit = st.button("Submit Answer")
