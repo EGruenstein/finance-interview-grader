@@ -236,7 +236,7 @@ if "questions" in st.session_state and st.session_state.questions:
                     # st.session_state.disabled_input = False
                     st.experimental_rerun()
 
-        if remaining > 0 and not st.session_state.submitted_current:
+        if not st.session_state.submitted_current:
             time.sleep(1)
             st.experimental_rerun()
 
