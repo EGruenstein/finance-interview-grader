@@ -213,7 +213,7 @@ if "questions" in st.session_state and st.session_state.questions:
             st.session_state.waiting_next = True
             st.session_state.disabled_input = True
             st.session_state.timer_expired = False  # Reset for next question
-            st.experimental_rerun()
+            st.rerun()
 
         if not st.session_state.submitted_current:
             submit = st.button("Submit Answer")
