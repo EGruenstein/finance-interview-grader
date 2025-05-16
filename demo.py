@@ -213,7 +213,7 @@ if "questions" in st.session_state and st.session_state.questions:
         if not st.session_state.submitted_current:
             submit = st.button("Submit Answer")
 
-            if submit:
+            if submit or remaining<=0:
                 with st.spinner("Grading..."):
                     latest_answer = st.session_state.get(f"answer_{idx}", "").strip()
                     st.session_state.answers[idx] = latest_answer
