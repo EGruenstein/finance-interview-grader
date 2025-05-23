@@ -39,6 +39,7 @@ ENV/
 
 # Streamlit secrets file (just in case)
 .streamlit/secrets.toml
+secrets.toml
 
 # Logs
 *.log
